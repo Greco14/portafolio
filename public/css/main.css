@@ -1,0 +1,968 @@
+@font-face {
+  font-family: "gotham_boldregular";
+  src: url("../assets/type/gotham-bold-webfont.eot");
+  src: url("../assets/type/gotham-bold-webfont.eot?#iefix") format("embedded-opentype"), url("../assets/type/gotham-bold-webfont.woff") format("woff"), url("../assets/type/gotham-bold-webfont.ttf") format("truetype"), url("../assets/type/gotham-bold-webfont.svg#gotham_boldregular") format("svg");
+  font-weight: normal;
+  font-style: normal; }
+@font-face {
+  font-family: "gotham_bookregular";
+  src: url("../assets/type/gotham-book-webfont.eot");
+  src: url("../assets/type/gotham-book-webfont.eot?#iefix") format("embedded-opentype"), url("../assets/type/gotham-book-webfont.woff") format("woff"), url("../assets/type/gotham-book-webfont.ttf") format("truetype"), url("../assets/type/gotham-book-webfont.svg#gotham_bookregular") format("svg");
+  font-weight: normal;
+  font-style: normal; }
+@font-face {
+  font-family: "gotham_lightregular";
+  src: url("../assets/type/gotham-light-webfont.eot");
+  src: url("../assets/type/gotham-light-webfont.eot?#iefix") format("embedded-opentype"), url("../assets/type/gotham-light-webfont.woff") format("woff"), url("../assets/type/gotham-light-webfont.ttf") format("truetype"), url("../assets/type/gotham-light-webfont.svg#gotham_lightregular") format("svg");
+  font-weight: normal;
+  font-style: normal; }
+@font-face {
+  font-family: "gotham_mediumregular";
+  src: url("../assets/type/gotham-medium-webfont.eot");
+  src: url("../assets/type/gotham-medium-webfont.eot?#iefix") format("embedded-opentype"), url("../assets/type/gotham-medium-webfont.woff") format("woff"), url("../assets/type/gotham-medium-webfont.ttf") format("truetype"), url("../assets/type/gotham-medium-webfont.svg#gotham_mediumregular") format("svg");
+  font-weight: normal;
+  font-style: normal; }
+@font-face {
+  font-family: "gotham_thinregular";
+  src: url("../assets/type/gotham-thin-webfont.eot");
+  src: url("../assets/type/gotham-thin-webfont.eot?#iefix") format("embedded-opentype"), url("../assets/type/gotham-thin-webfont.woff") format("woff"), url("../assets/type/gotham-thin-webfont.ttf") format("truetype"), url("../assets/type/gotham-thin-webfont.svg#gotham_thinregular") format("svg");
+  font-weight: normal;
+  font-style: normal; }
+@font-face {
+  font-family: "din";
+  src: url("../assets/type/din1451stdengschrift.eot");
+  src: url("../assets/type/din1451stdengschrift.eot") format("embedded-opentype"), url("../assets/type/din1451stdengschrift.woff") format("woff"), url("../assets/type/din1451stdengschrift.ttf") format("truetype"), url("../assets/type/din1451stdengschrift.svg#DIN1451StdEngschrift") format("svg"); }
+@font-face {
+  font-family: "dinBold";
+  src: url("../assets/type/dinbekbold.eot");
+  src: url("../assets/type/dinbekbold.eot") format("embedded-opentype"), url("../assets/type/dinbekbold.woff") format("woff"), url("../assets/type/dinbekbold.ttf") format("truetype"), url("../assets/type/dinbekbold.svg#DINbekBoldRegular") format("svg"); }
+@font-face {
+  font-family: "dinRegular";
+  src: url("../assets/type/dinbek.eot");
+  src: url("../assets/type/dinbek.eot") format("embedded-opentype"), url("../assets/type/dinbek.woff") format("woff"), url("../assets/type/dinbek.ttf") format("truetype"), url("../assets/type/dinbek.svg#DINBekRegular") format("svg"); }
+article, aside, details, figcaption, figure, footer, header, hgroup, main, nav, section, summary {
+  display: block; }
+
+audio, canvas, video {
+  display: inline-block;
+  *display: inline;
+  *zoom: 1; }
+
+audio:not([controls]) {
+  display: none;
+  height: 0; }
+
+[hidden] {
+  display: none; }
+
+html {
+  font-size: 100%;
+  -ms-text-size-adjust: 100%;
+  -webkit-text-size-adjust: 100%;
+  font-family: sans-serif; }
+
+button, input, select, textarea {
+  font-family: sans-serif; }
+
+body {
+  margin: 0; }
+
+a:focus {
+  outline: thin dotted; }
+a:active, a:hover {
+  outline: 0; }
+
+h1 {
+  font-size: 2em;
+  margin: 0.67em 0; }
+
+h2 {
+  font-size: 1.5em;
+  margin: 0.83em 0; }
+
+h3 {
+  font-size: 1.17em;
+  margin: 1em 0; }
+
+h4 {
+  font-size: 1em;
+  margin: 1.33em 0; }
+
+h5 {
+  font-size: 0.83em;
+  margin: 1.67em 0; }
+
+h6 {
+  font-size: 0.67em;
+  margin: 2.33em 0; }
+
+abbr[title] {
+  border-bottom: 1px dotted; }
+
+b, strong {
+  font-weight: normal;
+  font-style: normal; }
+
+blockquote {
+  margin: 1em 40px; }
+
+dfn {
+  font-style: normal;
+  font-weight: normal; }
+
+hr {
+  -moz-box-sizing: content-box;
+  box-sizing: content-box;
+  height: 0; }
+
+mark {
+  background: yellow;
+  color: black; }
+
+p, pre {
+  margin: 1em 0; }
+
+code, kbd, pre, samp {
+  font-family: monospace, serif;
+  _font-family: "courier new", monospace;
+  font-size: 1em; }
+
+pre {
+  white-space: pre;
+  white-space: pre-wrap;
+  word-wrap: break-word; }
+
+q {
+  quotes: none; }
+  q:before, q:after {
+    content: "";
+    content: none; }
+
+small {
+  font-size: 80%; }
+
+sub {
+  font-size: 75%;
+  line-height: 0;
+  position: relative;
+  vertical-align: baseline; }
+
+sup {
+  font-size: 75%;
+  line-height: 0;
+  position: relative;
+  vertical-align: baseline;
+  top: -0.5em; }
+
+sub {
+  bottom: -0.25em; }
+
+dl, menu, ol, ul {
+  margin: 1em 0; }
+
+dd {
+  margin: 0 0 0 40px; }
+
+menu, ol, ul {
+  padding: 0 0 0 40px; }
+
+nav ul, nav ol {
+  list-style: none;
+  list-style-image: none; }
+
+img {
+  border: 0;
+  -ms-interpolation-mode: bicubic; }
+
+svg:not(:root) {
+  overflow: hidden; }
+
+figure, form {
+  margin: 0; }
+
+fieldset {
+  border: 1px solid silver;
+  margin: 0 2px;
+  padding: 0.35em 0.625em 0.75em; }
+
+legend {
+  border: 0;
+  padding: 0;
+  white-space: normal;
+  *margin-left: -7px; }
+
+button, input, select, textarea {
+  font-size: 100%;
+  margin: 0;
+  vertical-align: baseline;
+  *vertical-align: middle; }
+
+button, input {
+  line-height: normal; }
+
+button, select {
+  text-transform: none; }
+
+button, html input[type="button"] {
+  -webkit-appearance: button;
+  cursor: pointer;
+  *overflow: visible; }
+
+input[type="reset"], input[type="submit"] {
+  -webkit-appearance: button;
+  cursor: pointer;
+  *overflow: visible; }
+
+button[disabled], html input[disabled] {
+  cursor: default; }
+
+input[type="checkbox"], input[type="radio"] {
+  box-sizing: border-box;
+  padding: 0;
+  *height: 13px;
+  *width: 13px; }
+input[type="search"] {
+  -webkit-appearance: textfield;
+  -moz-box-sizing: content-box;
+  -webkit-box-sizing: content-box;
+  box-sizing: content-box; }
+  input[type="search"]::-webkit-search-cancel-button, input[type="search"]::-webkit-search-decoration {
+    -webkit-appearance: none; }
+
+button::-moz-focus-inner, input::-moz-focus-inner {
+  border: 0;
+  padding: 0; }
+
+textarea {
+  overflow: auto;
+  vertical-align: top; }
+
+table {
+  border-collapse: collapse;
+  border-spacing: 0; }
+
+html, body, div, span, applet, object, iframe, h1, h2, h3, h4, h5, h6, p, blockquote, pre, a, abbr, acronym, address, big, cite, code, del, dfn, em, img, ins, kbd, q, s, samp, small, strike, strong, sub, sup, tt, var, b, u, i, center, dl, dt, dd, ol, ul, li, fieldset, form, label, legend, table, caption, tbody, tfoot, thead, tr, th, td, article, aside, canvas, details, embed, figure, figcaption, footer, header, hgroup, menu, nav, output, ruby, section, summary, time, mark, audio, video {
+  margin: 0;
+  padding: 0;
+  border: 0;
+  font-size: 16px;
+  font: inherit;
+  vertical-align: baseline;
+  outline: none;
+  text-decoration: none;
+  color: white;
+  line-height: 1em;
+  font-family: "dinRegular"; }
+
+a:focus {
+  outline: none; }
+
+article, aside, details, figcaption, figure, footer, header, hgroup, menu, nav, section {
+  display: block; }
+
+body {
+  line-height: 0; }
+
+ol, ul {
+  list-style: none; }
+
+blockquote, q {
+  quotes: none; }
+
+blockquote:before, blockquote:after {
+  content: "";
+  content: none; }
+
+q:before, q:after {
+  content: "";
+  content: none; }
+
+table {
+  border-collapse: collapse;
+  border-spacing: 0; }
+
+#nav {
+  width: 100%;
+  height: 50px;
+  position: absolute;
+  top: 0;
+  left: 0;
+  z-index: 10;
+  background-color: #103440; }
+
+#main {
+  width: 100%;
+  height: 100%;
+  position: relative;
+  color: white; }
+  #main .safeArea {
+    width: 521px;
+    height: 181px;
+    overflow: hidden;
+    margin: auto;
+    position: absolute;
+    top: 0;
+    left: 0;
+    bottom: 0;
+    right: 0; }
+    #main .safeArea .logoGreco {
+      width: 521px;
+      height: 181px;
+      position: absolute; }
+      #main .safeArea .logoGreco p {
+        font-size: 45px;
+        font-family: "din"; }
+      #main .safeArea .logoGreco .grecoNm, #main .safeArea .logoGreco .frontNm {
+        position: relative;
+        top: 20px;
+        opacity: 0; }
+      #main .safeArea .logoGreco p {
+        text-align: center; }
+      #main .safeArea .logoGreco span {
+        font-size: 25px; }
+    #main .safeArea .hold2logo {
+      width: 300px;
+      height: 77px;
+      position: absolute;
+      margin: auto;
+      position: absolute;
+      top: 0;
+      left: 0;
+      bottom: 0;
+      right: 0;
+      bottom: -55px; }
+      #main .safeArea .hold2logo #helloMe {
+        text-align: center;
+        font-size: 12px;
+        line-height: 13px; }
+        #main .safeArea .hold2logo #helloMe #tx3 {
+          width: 65%;
+          margin: 0 auto; }
+
+.holdBoton {
+  width: 100%;
+  height: 49px;
+  position: absolute;
+  bottom: 30px; }
+  .holdBoton .btnScroll {
+    width: 49px;
+    height: 49px;
+    position: absolute;
+    margin: auto;
+    position: absolute;
+    top: 0;
+    left: 0;
+    bottom: 0;
+    right: 0;
+    cursor: pointer; }
+    .holdBoton .btnScroll .holdCirc {
+      width: 4px;
+      height: 4px;
+      position: absolute;
+      margin: auto;
+      position: absolute;
+      top: 0;
+      left: 0;
+      bottom: 0;
+      right: 0;
+      top: 0;
+      opacity: 0; }
+      .holdBoton .btnScroll .holdCirc .inCircle {
+        width: 100%;
+        height: 100%;
+        -webkit-border-radius: 50%;
+        -moz-border-radius: 50%;
+        border-radius: 50%;
+        border: 2px solid white; }
+    .holdBoton .btnScroll .arrowDown {
+      width: 25px;
+      height: 17px;
+      margin: auto;
+      position: absolute;
+      top: 0;
+      left: 0;
+      bottom: 0;
+      right: 0;
+      left: 4px;
+      top: 4px;
+      background-image: url("../assets/img/portafolio/home/arrowD.png");
+      opacity: 0; }
+
+#holdPortafolio {
+  width: 100%;
+  height: 100%;
+  position: relative; }
+  #holdPortafolio .holdGrid {
+    width: 100%;
+    height: 100%;
+    position: absolute;
+    top: 0; }
+    #holdPortafolio .holdGrid .itemGrid {
+      width: 33%;
+      height: 24.38%;
+      position: relative;
+      float: left;
+      margin-bottom: 0.5%;
+      overflow: hidden;
+      cursor: pointer; }
+      #holdPortafolio .holdGrid .itemGrid.itemCol-2 {
+        margin-left: 0.5%;
+        margin-right: 0.5%; }
+      #holdPortafolio .holdGrid .itemGrid.itemRow-4 {
+        margin-bottom: 0; }
+      #holdPortafolio .holdGrid .itemGrid .holdImg {
+        width: 100%;
+        height: 100%;
+        position: absolute;
+        top: 0;
+        background-color: #1a1a1a;
+        overflow: hidden; }
+        #holdPortafolio .holdGrid .itemGrid .holdImg .imgIns {
+          width: 100%;
+          height: 100%;
+          position: absolute;
+          top: 0;
+          background-position: center;
+          background-repeat: no-repeat; }
+          #holdPortafolio .holdGrid .itemGrid .holdImg .imgIns .imgInFull {
+            min-width: 120px;
+            height: 30px;
+            padding: 0 23%;
+            margin: auto;
+            position: absolute;
+            top: 0;
+            left: 0;
+            bottom: 0;
+            right: 0; }
+            #holdPortafolio .holdGrid .itemGrid .holdImg .imgIns .imgInFull p {
+              text-align: center;
+              height: 35px;
+              margin: 0 auto;
+              color: #ababab;
+              font-family: "din";
+              font-size: 22px;
+              border: 2px solid #ababab;
+              padding-top: 10px; }
+          #holdPortafolio .holdGrid .itemGrid .holdImg .imgIns img {
+            width: 100%; }
+        #holdPortafolio .holdGrid .itemGrid .holdImg .imgHover {
+          opacity: 0; }
+      #holdPortafolio .holdGrid .itemGrid .contein {
+        width: 95%;
+        height: 60px;
+        position: absolute;
+        bottom: 0;
+        left: -110%; }
+        #holdPortafolio .holdGrid .itemGrid .contein .plecaName {
+          width: 100%;
+          height: 100%;
+          position: absolute;
+          margin: auto;
+          position: absolute;
+          top: 0;
+          left: 0;
+          bottom: 0;
+          right: 0;
+          background-color: rgba(26, 26, 26, 0.7); }
+          #holdPortafolio .holdGrid .itemGrid .contein .plecaName .infoThumb {
+            width: 100%;
+            position: absolute;
+            bottom: 10px;
+            text-align: center; }
+            #holdPortafolio .holdGrid .itemGrid .contein .plecaName .infoThumb p {
+              font-size: 20px;
+              color: #d1d1d1; }
+            #holdPortafolio .holdGrid .itemGrid .contein .plecaName .infoThumb span {
+              font-size: 12px;
+              color: #d1d1d1; }
+        #holdPortafolio .holdGrid .itemGrid .contein .holdIcon {
+          width: 60px;
+          height: 60px;
+          position: relative;
+          margin: 0 auto; }
+  #holdPortafolio #MainInfo {
+    width: 100%;
+    height: 0;
+    position: absolute;
+    top: 50%;
+    left: 0;
+    overflow: hidden; }
+    #holdPortafolio #MainInfo #closeInfo {
+      width: 20px;
+      height: 20px;
+      position: absolute;
+      top: 10px;
+      right: 10px;
+      cursor: pointer; }
+      #holdPortafolio #MainInfo #closeInfo .holdCubs {
+        width: 20px;
+        height: 20px;
+        position: absolute;
+        top: 0px;
+        left: 0px; }
+        #holdPortafolio #MainInfo #closeInfo .holdCubs .c2 {
+          width: 8px;
+          height: 8px;
+          position: absolute;
+          float: left;
+          background-color: rgba(250, 250, 250, 0.6); }
+          #holdPortafolio #MainInfo #closeInfo .holdCubs .c2.lik1 {
+            left: 0; }
+          #holdPortafolio #MainInfo #closeInfo .holdCubs .c2.lik2 {
+            right: 0; }
+          #holdPortafolio #MainInfo #closeInfo .holdCubs .c2.topLK {
+            top: 0; }
+          #holdPortafolio #MainInfo #closeInfo .holdCubs .c2.bottLK {
+            bottom: 0; }
+    #holdPortafolio #MainInfo #holdBtns {
+      width: 25px;
+      height: 50px;
+      position: absolute;
+      top: 10px;
+      left: 10px; }
+      #holdPortafolio #MainInfo #holdBtns .btnNavPortafolio {
+        width: 25px;
+        height: 25px;
+        position: relative;
+        top: 0;
+        cursor: pointer; }
+        #holdPortafolio #MainInfo #holdBtns .btnNavPortafolio.arriba {
+          background-image: url("../assets/img/portafolio/up.png"); }
+        #holdPortafolio #MainInfo #holdBtns .btnNavPortafolio.abajo {
+          background-image: url("../assets/img/portafolio/down.png"); }
+        #holdPortafolio #MainInfo #holdBtns .btnNavPortafolio:hover {
+          background-color: rgba(0, 0, 0, 0.3); }
+    #holdPortafolio #MainInfo #holdQrs {
+      width: 250px;
+      height: 250px;
+      position: absolute;
+      bottom: 10px;
+      right: -350px;
+      background-color: rgba(0, 0, 0, 0.3);
+      display: block; }
+      #holdPortafolio #MainInfo #holdQrs .wrappQrs {
+        width: 200px;
+        height: 200px;
+        margin: auto;
+        position: absolute;
+        top: 0;
+        left: 0;
+        bottom: 0;
+        right: 0;
+        background-repeat: no-repeat;
+        background-position: center;
+        display: none; }
+        #holdPortafolio #MainInfo #holdQrs .wrappQrs#mobIcon-3-qr {
+          background-image: url("../assets/img/portafolio/qrs/pologtiQr.png"); }
+        #holdPortafolio #MainInfo #holdQrs .wrappQrs#mobIcon-5-qr {
+          background-image: url("../assets/img/portafolio/qrs/promocionesQr.png"); }
+        #holdPortafolio #MainInfo #holdQrs .wrappQrs#mobIcon-6-qr {
+          background-image: url("../assets/img/portafolio/qrs/jdQr.png"); }
+        #holdPortafolio #MainInfo #holdQrs .wrappQrs#mobIcon-9-qr {
+          background-image: url("../assets/img/portafolio/qrs/rally.png"); }
+    #holdPortafolio #MainInfo .mainHold {
+      width: 100%;
+      height: 100%;
+      position: relative;
+      float: left; }
+      #holdPortafolio #MainInfo .mainHold .inMainHold {
+        position: relative;
+        width: 100%;
+        height: 100%;
+        -webkit-perspective: 1200px;
+        -moz-perspective: 1200px;
+        perspective: 1200px; }
+        #holdPortafolio #MainInfo .mainHold .inMainHold#rightHold {
+          top: 0%; }
+        #holdPortafolio #MainInfo .mainHold .inMainHold#leftHold {
+          top: 0%; }
+        #holdPortafolio #MainInfo .mainHold .inMainHold .itemInfo {
+          width: 100%;
+          height: 100%;
+          position: absolute;
+          top: 0;
+          left: 0;
+          visibility: hidden;
+          overflow: hidden;
+          -webkit-backface-visibility: hidden;
+          -moz-backface-visibility: hidden;
+          backface-visibility: hidden;
+          -webkit-transform: translate3d(0, 0, 0);
+          -moz-transform: translate3d(0, 0, 0);
+          transform: translate3d(0, 0, 0);
+          -webkit-transform-style: preserve-3d;
+          -moz-transform-style: preserve-3d;
+          transform-style: preserve-3d;
+          background-color: rgba(60, 60, 60, 0.98); }
+          #holdPortafolio #MainInfo .mainHold .inMainHold .itemInfo.pt-page-current, #holdPortafolio #MainInfo .mainHold .inMainHold .itemInfo .no-js .pt-page {
+            visibility: visible;
+            z-index: 1; }
+          #holdPortafolio #MainInfo .mainHold .inMainHold .itemInfo.no-js body {
+            overflow: auto; }
+          #holdPortafolio #MainInfo .mainHold .inMainHold .itemInfo.pt-page-ontop {
+            z-index: 999; }
+          #holdPortafolio #MainInfo .mainHold .inMainHold .itemInfo .holdAll {
+            width: 90%;
+            height: 90%;
+            margin: auto;
+            position: absolute;
+            top: 0;
+            left: 0;
+            bottom: 0;
+            right: 0; }
+            #holdPortafolio #MainInfo .mainHold .inMainHold .itemInfo .holdAll .centraInfo {
+              min-height: 300px;
+              min-width: 400px;
+              position: relative;
+              margin: 0 auto;
+              padding-top: 70px; }
+              #holdPortafolio #MainInfo .mainHold .inMainHold .itemInfo .holdAll .centraInfo .title {
+                width: 100%;
+                max-width: 1500px;
+                height: 60px;
+                font-size: 35px;
+                text-align: center;
+                margin: 0 auto;
+                margin-bottom: 45px; }
+                #holdPortafolio #MainInfo .mainHold .inMainHold .itemInfo .holdAll .centraInfo .title p {
+                  width: auto;
+                  height: 35px;
+                  margin: 0 auto;
+                  padding: 10px;
+                  color: #ababab;
+                  font-family: "dinBold";
+                  border: 2px solid #ababab; }
+              #holdPortafolio #MainInfo .mainHold .inMainHold .itemInfo .holdAll .centraInfo .description {
+                width: 60%;
+                margin: 0 auto;
+                text-align: center;
+                margin-bottom: 40px; }
+                #holdPortafolio #MainInfo .mainHold .inMainHold .itemInfo .holdAll .centraInfo .description p {
+                  font-size: 15px;
+                  line-height: 22px; }
+              #holdPortafolio #MainInfo .mainHold .inMainHold .itemInfo .holdAll .centraInfo .left {
+                text-align: center;
+                margin-bottom: 5px;
+                font-size: 13px; }
+                #holdPortafolio #MainInfo .mainHold .inMainHold .itemInfo .holdAll .centraInfo .left p {
+                  left: left; }
+                  #holdPortafolio #MainInfo .mainHold .inMainHold .itemInfo .holdAll .centraInfo .left p span {
+                    margin-left: 10px;
+                    font-family: "gotham_mediumregular";
+                    font-size: 14px;
+                    letter-spacing: 1px; }
+              #holdPortafolio #MainInfo .mainHold .inMainHold .itemInfo .holdAll .centraInfo .visita {
+                width: 100px;
+                height: 65px;
+                position: relative;
+                margin: 0 auto;
+                margin-top: 15px; }
+                #holdPortafolio #MainInfo .mainHold .inMainHold .itemInfo .holdAll .centraInfo .visita p {
+                  font-size: 15px;
+                  width: 100%;
+                  height: 15px;
+                  font-family: "dinRegular"; }
+                #holdPortafolio #MainInfo .mainHold .inMainHold .itemInfo .holdAll .centraInfo .visita .iconBtn {
+                  width: 50%;
+                  height: 50px;
+                  margin: 0 auto; }
+                #holdPortafolio #MainInfo .mainHold .inMainHold .itemInfo .holdAll .centraInfo .visita .mobileIcon {
+                  background-image: url("../assets/img/portafolio/qrs/mobile.png");
+                  background-position: 8px;
+                  cursor: pointer;
+                  display: none;
+                  float: left; }
+                #holdPortafolio #MainInfo .mainHold .inMainHold .itemInfo .holdAll .centraInfo .visita #mobIcon-3, #holdPortafolio #MainInfo .mainHold .inMainHold .itemInfo .holdAll .centraInfo .visita #mobIcon-5, #holdPortafolio #MainInfo .mainHold .inMainHold .itemInfo .holdAll .centraInfo .visita #mobIcon-6, #holdPortafolio #MainInfo .mainHold .inMainHold .itemInfo .holdAll .centraInfo .visita #mobIcon-9 {
+                  display: block; }
+                #holdPortafolio #MainInfo .mainHold .inMainHold .itemInfo .holdAll .centraInfo .visita .desktopIcon {
+                  background-image: url("../assets/img/portafolio/qrs/desktop.png"); }
+                #holdPortafolio #MainInfo .mainHold .inMainHold .itemInfo .holdAll .centraInfo .visita #deskIcon-3, #holdPortafolio #MainInfo .mainHold .inMainHold .itemInfo .holdAll .centraInfo .visita #deskIcon-5, #holdPortafolio #MainInfo .mainHold .inMainHold .itemInfo .holdAll .centraInfo .visita #deskIcon-6, #holdPortafolio #MainInfo .mainHold .inMainHold .itemInfo .holdAll .centraInfo .visita #deskIcon-9 {
+                  float: left; }
+            #holdPortafolio #MainInfo .mainHold .inMainHold .itemInfo .holdAll .imgsCenter {
+              width: 100%;
+              min-width: 500px;
+              max-width: 1500px;
+              margin: 0 auto;
+              height: 283px;
+              position: relative; }
+              #holdPortafolio #MainInfo .mainHold .inMainHold .itemInfo .holdAll .imgsCenter#imgs-3 {
+                width: 40%;
+                max-width: 590px;
+                min-width: 360px; }
+              #holdPortafolio #MainInfo .mainHold .inMainHold .itemInfo .holdAll .imgsCenter#imgs-5 {
+                width: 40%;
+                max-width: 590px;
+                min-width: 360px; }
+              #holdPortafolio #MainInfo .mainHold .inMainHold .itemInfo .holdAll .imgsCenter#imgs-6 {
+                width: 40%;
+                max-width: 590px;
+                min-width: 360px; }
+              #holdPortafolio #MainInfo .mainHold .inMainHold .itemInfo .holdAll .imgsCenter .maskImg {
+                width: 100%;
+                height: 100%;
+                position: absolute; }
+                #holdPortafolio #MainInfo .mainHold .inMainHold .itemInfo .holdAll .imgsCenter .maskImg .holdAllImgs {
+                  width: 100%;
+                  height: 100%;
+                  position: absolute;
+                  top: 0;
+                  left: 0;
+                  -webkit-transform-style: preserve-3d;
+                  -moz-transform-style: preserve-3d;
+                  -o-transform-style: preserve-3d;
+                  -ms-transform-style: preserve-3d;
+                  transform-style: preserve-3d;
+                  -webkit-transform: perspective(1600px);
+                  -webkit-perspective-origin: 50% 50%; }
+                  #holdPortafolio #MainInfo .mainHold .inMainHold .itemInfo .holdAll .imgsCenter .maskImg .holdAllImgs .sigleImg {
+                    width: 33%;
+                    height: 283px;
+                    position: relative;
+                    float: left; }
+                    #holdPortafolio #MainInfo .mainHold .inMainHold .itemInfo .holdAll .imgsCenter .maskImg .holdAllImgs .sigleImg.Novideo-1 {
+                      display: none; }
+                    #holdPortafolio #MainInfo .mainHold .inMainHold .itemInfo .holdAll .imgsCenter .maskImg .holdAllImgs .sigleImg.Novideo-2 {
+                      display: none; }
+                    #holdPortafolio #MainInfo .mainHold .inMainHold .itemInfo .holdAll .imgsCenter .maskImg .holdAllImgs .sigleImg img {
+                      width: 100%;
+                      -webkit-box-shadow: 0px 7px 22px 0px rgba(0, 0, 0, 0.3);
+                      box-shadow: 0px 7px 22px 0px rgba(0, 0, 0, 0.3);
+                      margin: auto;
+                      position: absolute;
+                      top: 0;
+                      left: 0;
+                      bottom: 0;
+                      right: 0; }
+                  #holdPortafolio #MainInfo .mainHold .inMainHold .itemInfo .holdAll .imgsCenter .maskImg .holdAllImgs .center {
+                    margin-right: 0.5%;
+                    margin-left: 0.5%; }
+                  #holdPortafolio #MainInfo .mainHold .inMainHold .itemInfo .holdAll .imgsCenter .maskImg .holdAllImgs .leftSide {
+                    -webkit-transform-origin: right center;
+                    -webkit-transform: rotateY(45deg);
+                    -webkit-perspective-origin: 50% 50%; }
+                  #holdPortafolio #MainInfo .mainHold .inMainHold .itemInfo .holdAll .imgsCenter .maskImg .holdAllImgs .rightSide {
+                    -webkit-transform-origin: left center;
+                    -webkit-transform: rotateY(-45deg);
+                    -webkit-perspective-origin: 50% 50%; }
+                    #holdPortafolio #MainInfo .mainHold .inMainHold .itemInfo .holdAll .imgsCenter .maskImg .holdAllImgs .rightSide .imgTitle {
+                      width: 120px;
+                      height: 50px;
+                      position: absolute;
+                      right: 0;
+                      bottom: 0;
+                      background-color: rgba(0, 0, 0, 0.7); }
+                      #holdPortafolio #MainInfo .mainHold .inMainHold .itemInfo .holdAll .imgsCenter .maskImg .holdAllImgs .rightSide .imgTitle p {
+                        text-align: center;
+                        color: white;
+                        font-size: 12px; }
+                  #holdPortafolio #MainInfo .mainHold .inMainHold .itemInfo .holdAll .imgsCenter .maskImg .holdAllImgs .holdVideo {
+                    width: 500px;
+                    height: 281px;
+                    position: absolute;
+                    margin: auto;
+                    position: absolute;
+                    top: 0;
+                    left: 0;
+                    bottom: 0;
+                    right: 0;
+                    display: none; }
+                    #holdPortafolio #MainInfo .mainHold .inMainHold .itemInfo .holdAll .imgsCenter .maskImg .holdAllImgs .holdVideo#video-1 {
+                      display: block;
+                      -webkit-box-shadow: 0px 7px 22px 0px rgba(0, 0, 0, 0.3);
+                      box-shadow: 0px 7px 22px 0px rgba(0, 0, 0, 0.3); }
+                    #holdPortafolio #MainInfo .mainHold .inMainHold .itemInfo .holdAll .imgsCenter .maskImg .holdAllImgs .holdVideo#video-2 {
+                      display: block;
+                      -webkit-box-shadow: 0px 7px 22px 0px rgba(0, 0, 0, 0.3);
+                      box-shadow: 0px 7px 22px 0px rgba(0, 0, 0, 0.3); }
+
+@media screen and (max-height: 800px) and (max-width: 1480px) {
+  #holdPortafolio #MainInfo .mainHold .inMainHold .itemInfo .holdAll .imgsCenter {
+    max-width: 1200px; }
+  #holdPortafolio #MainInfo .mainHold .inMainHold .itemInfo .holdAll .centraInfo {
+    padding-top: 20px; }
+    #holdPortafolio #MainInfo .mainHold .inMainHold .itemInfo .holdAll .centraInfo .title {
+      margin: 0 auto;
+      max-width: 1200px; }
+    #holdPortafolio #MainInfo .mainHold .inMainHold .itemInfo .holdAll .centraInfo .description {
+      width: 95%;
+      margin-bottom: 20px; }
+    #holdPortafolio #MainInfo .mainHold .inMainHold .itemInfo .holdAll .centraInfo .holThings {
+      width: 100%;
+      height: 45px;
+      margin-bottom: 10px; }
+      #holdPortafolio #MainInfo .mainHold .inMainHold .itemInfo .holdAll .centraInfo .holThings .veintis {
+        width: 33.3%;
+        float: left; } }
+@media screen and (max-width: 800px) {
+  #holdPortafolio #MainInfo .mainHold .inMainHold .itemInfo .holdAll .imgsCenter {
+    height: 250px; }
+  #holdPortafolio #MainInfo .mainHold .inMainHold .itemInfo .holdAll .centraInfo {
+    padding-top: 20px; }
+
+  #holdPortafolio #MainInfo #holdBtns {
+    width: 50px;
+    height: 150px;
+    top: 20px;
+    left: 0; }
+    #holdPortafolio #MainInfo #holdBtns .btnNavPortafolio {
+      width: 50px;
+      height: 50px;
+      background-position: center;
+      background-repeat: no-repeat; }
+      #holdPortafolio #MainInfo #holdBtns .btnNavPortafolio.abajo {
+        top: 50px; }
+
+  #holdPortafolio #MainInfo #closeInfo {
+    top: 30px;
+    transform: scale(1.4, 1.4);
+    -ms-transform: scale(1.4, 1.4);
+    -webkit-transform: scale(1.4, 1.4);
+    -moz-transform: scale(1.4, 1.4);
+    -o-transform: scale(1.4, 1.4); } }
+#holdConections {
+  width: 98%;
+  height: 30px;
+  position: absolute;
+  bottom: 10px;
+  left: 1%; }
+  #holdConections .left {
+    width: 440px;
+    position: absolute;
+    bottom: 0;
+    left: 0; }
+    #holdConections .left p {
+      font-size: 11px;
+      color: white; }
+  #holdConections .right {
+    width: 225px;
+    height: 30px;
+    position: absolute;
+    top: 6px;
+    right: -23px;
+    transform: scale(0.8, 0.8);
+    -ms-transform: scale(0.8, 0.8);
+    -webkit-transform: scale(0.8, 0.8);
+    -moz-transform: scale(0.8, 0.8);
+    -o-transform: scale(0.8, 0.8); }
+    #holdConections .right .btn {
+      width: 45px;
+      height: 30px;
+      float: left;
+      background-image: url("../assets/img/home/shares_btn.png");
+      background-repeat: no-repeat; }
+    #holdConections .right .contact {
+      background-position: 0px 0px; }
+    #holdConections .right .fb {
+      background-position: -45px 0px; }
+    #holdConections .right .link {
+      background-position: -90px 0px; }
+    #holdConections .right .behance {
+      background-position: -135px 0px; }
+    #holdConections .right .projeqt {
+      background-position: -180px 0px; }
+
+@media screen and (max-width: 800px) {
+  #holdConections .left {
+    width: 210px;
+    line-height: 14px; } }
+#loader {
+  width: 100%;
+  height: 100%;
+  margin: auto;
+  position: absolute;
+  top: 0;
+  left: 0;
+  bottom: 0;
+  right: 0;
+  background-color: #1a1a1a; }
+  #loader .gift {
+    width: 221px;
+    height: 283px;
+    background-image: url("../assets/img/pumpgirl.gif");
+    margin: auto;
+    position: absolute;
+    top: 0;
+    left: 0;
+    bottom: 0;
+    right: 0; }
+  #loader .lightHold {
+    width: 500px;
+    height: 500px;
+    margin: auto;
+    position: absolute;
+    top: 0;
+    left: 0;
+    bottom: 0;
+    right: 0; }
+    #loader .lightHold .light {
+      width: 300px;
+      height: 300px;
+      margin: auto;
+      position: absolute;
+      top: 0;
+      left: 0;
+      bottom: 0;
+      right: 0; }
+      #loader .lightHold .light img {
+        width: 100%;
+        height: 100%;
+        position: absolute;
+        top: 0; }
+    #loader .lightHold #green {
+      opacity: 0; }
+    #loader .lightHold #blue {
+      opacity: 0; }
+    #loader .lightHold #pink {
+      opacity: 0; }
+  #loader .text {
+    width: 100%;
+    text-align: center;
+    color: white;
+    position: absolute;
+    bottom: 100px; }
+    #loader .text p {
+      margin-bottom: 10px; }
+    #loader .text span {
+      font-size: 10px; }
+
+#contact .aboutMe {
+  width: 500px;
+  height: 120px;
+  text-align: center;
+  margin: auto;
+  position: absolute;
+  top: 0;
+  left: 0;
+  bottom: 0;
+  right: 0; }
+  #contact .aboutMe .downMe {
+    margin-top: 20px; }
+
+body {
+  background: #3fcfff;
+  min-width: 320px;
+  min-height: 600px;
+  width: 100%;
+  height: 100%;
+  overflow: hidden;
+  background: url("../assets/img/portafolio/home/bg.jpg") no-repeat center center fixed;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover; }
+  body .grid {
+    width: 100%;
+    height: 100%;
+    position: absolute;
+    top: 0;
+    background-image: url("../assets/img/portafolio/home/grid.png"); }
+  body #wrapper {
+    width: 100%;
+    height: 300%;
+    position: absolute;
+    top: 0;
+    overflow: hidden; }
+    body #wrapper .inWrapp {
+      width: 100%;
+      height: 33.3%;
+      position: relative; }

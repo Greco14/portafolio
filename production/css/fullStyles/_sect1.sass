@@ -1,0 +1,74 @@
+#main
+	width: 100%
+	height: 100%
+	position: relative
+	color: white
+	.safeArea
+		width: 521px
+		height: 181px
+		overflow: hidden
+
+		+is-center
+		.logoGreco
+			width: 521px
+			height: 181px
+			position: absolute
+			// top: 220px
+			p 	
+				font-size: 45px
+				font-family: 'din'
+			// background-image: url("../assets/img/home/greco.png")
+			.grecoNm, .frontNm
+				position: relative
+				top: 20px
+				opacity: 0
+			p 
+
+				text-align: center
+			span 
+				font-size: 25px
+		.hold2logo
+			width: 300px
+			height: 77px
+			position: absolute
+			+is-center
+			bottom: -55px
+			#helloMe
+				text-align: center
+				font-size: 12px
+				line-height: 13px
+				
+				#tx3
+					width: 65%
+					margin: 0 auto
+.holdBoton
+	width: 100%
+	height: 49px
+	position: absolute
+	bottom: 30px
+	.btnScroll
+		width: 49px
+		height: 49px
+		position: absolute
+		+is-center
+		cursor: pointer
+		.holdCirc
+			width: 4px
+			height: 4px
+			position: absolute
+			+is-center
+			top: 0
+			opacity: 0
+			.inCircle
+				width: 100%
+				height: 100%
+				+border-radius(50%)
+				border: 2px solid white
+		.arrowDown
+			width: 25px
+			height: 17px
+			+is-center
+			left: 4px
+			top: 4px
+			background-image: url("../assets/img/portafolio/home/arrowD.png")
+			opacity: 0

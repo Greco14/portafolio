@@ -1,0 +1,160 @@
+mixin itemGrid(params)
+	div(class="itemGrid itemCol-#{params.col} itemRow-#{params.row}", data-row="#{params.row}",data-col="#{params.num}", id="itemGrid-#{params.num}")
+		.holdImg
+			.imgIns
+				.imgInFull
+					p= params.name
+				//- img(style="background-image:url(assets/img/portafolio/grid/grid2/#{params.imagen}-hover.jpg);")
+			.imgIns.imgHover(id="itemGrid-#{params.num}-hover")
+				img(src="assets/img/portafolio/grid/#{params.imagen}.jpg")
+		.contein(id="content-#{params.num}")
+			.plecaName
+				.infoThumb
+					p= params.title
+					p <span> #{params.spans} </span>
+			div(class="holdIcon cuantoIconos-#{params.icons}")
+
+mixin itemInfo(params)
+	div(class="itemInfo" id="current-page-#{params.nums}")
+		.holdAll
+			.imgsCenter(id="imgs-#{params.nums}")
+				.maskImg
+					.holdAllImgs
+						.sigleImg.leftSide(class="Novideo-#{params.nums}")
+							img(src="assets/img/portafolio/#{params.imagen}/left.png")
+							
+						.sigleImg.center(class="Novideo-#{params.nums}")
+							img(src="assets/img/portafolio/#{params.imagen}/center.png")
+							
+							
+						.sigleImg.rightSide(class="Novideo-#{params.nums}")
+							img(src="assets/img/portafolio/#{params.imagen}/right.png")
+			.centraInfo
+				.title
+					p= params.titulo
+
+				.description
+					p= params.descripcion
+				.holThings
+					.roll.left.veintis
+						p  Roll :
+							span= params.roll
+					.agency.left.veintis
+						p  Agency :
+							span= params.agency
+					.client.left.veintis
+						p  Client :
+							span= params.client
+					.lenguajes.left.veintis
+						p Lenguages or Framework :
+							span= params.lenguajes
+					.colaboradores.left.veintis
+						p Team Partner :
+							span= params.programador 
+					.colaboradores.left.veintis
+						p Designer :
+							span= params.disenador
+				.visita.left.lef2
+					p Visit the Site
+					.holdIcons
+						a(href="http://#{params.url}", target="_blank")
+							.iconBtn.desktopIcon(id="deskIcon-#{params.nums}")
+						.iconBtn.mobileIcon(id="mobIcon-#{params.nums}")
+						
+
+mixin itemInfo2(params)
+	div(class="itemInfo itemInfo2" id="current-page-#{params.nums}")
+		.holdAll
+			.imgsCenter(id="imgs-#{params.nums}")
+				.maskImg
+					.holdAllImgs
+						.holdVideo(id="video-#{params.nums}")
+							iframe( src="//player.vimeo.com/video/#{params.video}", width="500", height="281", frameborder="0", webkitallowfullscreen mozallowfullscreen allowfullscreen)			
+			.centraInfo
+				.title
+					p= params.titulo
+
+				.description
+					p= params.descripcion
+				.holThings
+					.roll.left.veintis
+						p  Roll :
+							span= params.roll
+					.agency.left.veintis
+						p  Agency :
+							span= params.agency
+					.client.left.veintis
+						p  Client :
+							span= params.client
+					.lenguajes.left.veintis
+						p Lenguages or Framework :
+							span= params.lenguajes
+					.colaboradores.left.veintis
+						p Team Partner :
+							span= params.programador 
+					.colaboradores.left.veintis
+						p Designer :
+							span= params.disenador
+				.visita.left
+					p Visit the Site
+					a(href="http://#{params.url}", target="_blank")
+						.iconBtn.desktopIcon(id="deskIcon-#{params.nums}")
+					.iconBtn.mobileIcon(id="mobIcon-#{params.nums}")
+				
+
+
+.inWrapp
+	input(type="hidden", id="numss" value="0")
+	#holdPortafolio
+		.holdGrid
+			+itemGrid({num:'1', row:'1', col:'1', itemG:'1', imagen:'fortune',  name:'FOURTUNE MACHINE', title:'Fourtune Machine', spans:'OCT-2012', icons:'icono1'}) 
+
+			+itemGrid({num:'2', row:'1', col:'2', itemG:'1', imagen:'latitud', name:'LATITUD 90 S', title:'Latitud 90 Sur', spans:'NOV-2012', icons:'icono1'})
+			+itemGrid({num:'3', row:'1', col:'3', itemG:'2', imagen:'poloGti', name:'POLO GTI', title:'Polo Gti', spans:'MAR-2013', icons:'icono1'})
+			
+			+itemGrid({num:'4', row:'2', col:'1', itemG:'1', imagen:'invaderFestival', name:'INVADER FESTIVAL', title:'Invader Festival', spans:'AGO-2013', icons:'icono1'})
+			+itemGrid({num:'5', row:'2', col:'2', itemG:'2', imagen:'promociones', name:'PROMOCIONES VW', title:'Promociones VW', spans:'SEP-2013', icons:'icono1'})
+			+itemGrid({num:'6', row:'2', col:'3', itemG:'1', imagen:'JD', name:'JACK HONEY', title:'Jack Daniel´s Honey', spans:'OCT-2013', icons:'icono1'})
+			
+			+itemGrid({num:'7', row:'3', col:'1', itemG:'2', imagen:'mostaccino', name:'MOSTACCION', title:'Mostaccino', spans:'NOV-2013', icons:'icono1'})		
+			+itemGrid({num:'8', row:'3', col:'2', itemG:'1', imagen:'mabe', name:'MABE', title:'Mabe Prime Blend', spans:'ENE-2014', icons:'icono1'})
+			+itemGrid({num:'9', row:'3', col:'3', itemG:'2', imagen:'rally', name:'VW RALLY', title:'VW Rally', spans:'MAR-2014', icons:'icono1'})
+			
+			+itemGrid({num:'10', row:'4', col:'1', itemG:'1', imagen:'nosococo', name:'NOSSOCOCO', title:'Nossococo', spans:'APR-2013', icons:'icono1'})	
+			+itemGrid({num:'11', row:'4', col:'2', itemG:'2', imagen:'mundoIdeal', name:'MI MUNDO IDEAL', title:'Mi Mundo Ideal', spans:'MAY-2013', icons:'icono1'})			
+			+itemGrid({num:'12', row:'4', col:'3', itemG:'2', imagen:'encuestas', name:'ENCUESTAS MX', title:'Encuestas México', spans:'JUN-2012', icons:'icono1'})
+
+		#MainInfo
+			.mainHold#infoHolder
+				.inMainHold#rightHold
+					+itemInfo2({nums:"1", url:"www.behance.net/gallery/5562267/Fourtune-Machine", titulo:'Fourtune Machine',roll:" Developer", agency:'Digital Invaders', client:'Digital Invaders 9.0', descripcion:'In this project Is the first of my develop career, it’s a social activation where we develop an app to be communicated with 4square and Arduino. The idea, integrate the analoge life with the digital one, mixing the customer tendency to share what he’s doing and the surprise of giving him a reward.', programador:'Rafael de León', disenador:' Chan Alvarez',  video:"51032435", lenguajes:' C#, javascript, phyton'})
+					+itemInfo2({nums:"2", url:"vimeo.com/54314516", titulo:'Latitud 90 Sur',roll:" Front-end, Developer", agency:'Digital Invaders', client:'Digital Invaders 9.0', descripcion:'In this project Is no longer online so you can see the PADI above, I had to learn on the road, as I was programming I was learning, it was a video that has a localisation by ip address help with google and a interaction with facebook and a webcam, to make a full experience .', programador:'', disenador:' Joel Avedaño',  video:"54314516",lenguajes:' Ruby rails, javascript'})
+					+itemInfo({nums:"3", url:"pologti.mx/", titulo:'Polo Gti',roll:" Front-end Mobile", agency:'Grupo w', client:'Volkswagen', descripcion:'This project is started as a responsive design but cause the structure require for the design it has to be separate, the mobile from the ipad and  desktop. We had to deal with the resolutions problem, so the media queries were implemented with the pixel ratio option.', programador:'Carlos Aguilar', disenador:' Jesus Barajas', imagen:'poloGti', video:"51032435", lenguajes:' javascript, css, html'})
+
+					+itemInfo({nums:"4", url:"invaderfestival.com", titulo:'Invader Festival' ,roll:" Front-end", agency:'Grupo W', client:'Digital Invaders', descripcion:'This project is one of my favorites cause it gave me the chance to explore a lot of new things, it’s mainly made with jquery and css, it was my first project where I was the only developer. I worked closely to the designers to develop the look and feel the UX and the animations.', programador:'', disenador:' Sindy Salas, Alan Rodriguez', imagen:'invaderFestival',  lenguajes:' jquery, php'})
+					+itemInfo({nums:"5", url:"promocionesvw.mx", titulo:'Promociones Vw',roll:" Front-end Mobile", agency:'Grupo w', client:'Volkswagen', descripcion:'This project was a little bit easier with the responsive topic due it has a more clearly worked on a grid. Here we have to decide what animations will stay or how would be the best option to keep it faithful to the desktop version. It was made on html, css, jquery and a CMS made with PHP.', programador:'Carlos Aguilar', disenador:' Jesus Barajas', imagen:'promociones',  lenguajes:' php, jquery, html, css3'})
+					+itemInfo({nums:"6", url:"jackhoney.mx", titulo:'Jack Daniel´s Honey',roll:" Front-end Mobile", agency:'Grupo w', client:'Jack Daniel´s', descripcion:'This project need to be separate from the desktop url, it has its mobile version and was worked giving the preference to the IOS users so it wasn´t work with percentages, I have to manage the fact that some of the main things on the site were too heavy, they have to be remove. the desktop site is so awesome.', programador:'Carlos Aguilar', disenador:' Jesus Barajas', imagen:'JD',  lenguajes:' php, jquery, html, css3'})
+
+					+itemInfo({nums:"7", url:"qa.grupow.com/it/nescafe/mostaccino", titulo:'Mostaccino',roll:" Front-end", agency:'Grupo w', client:'Nescafé', descripcion:'One of the heaviest projects I have been into.Iit has lots of animations made with frames and a Flash integration to make the game easier to develop, it was thought to have a mobile interaction version, but due client issues it just ends up as a prototype that version. ', programador:'Heidi Lopez', disenador:' Jesus Barajas, Pablo Mercado', imagen:'mostaccino',  lenguajes:' AS2, jquery, html'})
+					+itemInfo({nums:"8", url:"primeblendmx.grwpo.net", titulo:'Mabe Prime Blend',roll:" Front-end", agency:'Grupo w', client:'Mabe', descripcion:"The site has a redesign, I was involved in the develop of 4 sections: showrooms, noticias, tips and glosario, they haven't been publish cause brand issues, but you can take a look in our qa versión.", programador:'Abril Alvarez', disenador:' Sindy Salas, Alan Rodriguez', imagen:'mabe',  lenguajes:' .Net, jquery, html'})
+					+itemInfo({nums:"9", url:"vwrally.mx", titulo:'Volkswagen Rally',roll:" Front-end", agency:'Grupo w', client:'Volkswagen', descripcion:'In this project has lots of details it has a responsive version, I used some frameworks for the animations with the scroll it has jquery animations as well. The project has a DB made on .Net, which was develop by my partner. We work closely to make the integration.', programador:'Yushell Darwich', disenador:' Sindy, Salas', imagen:'rally',  lenguajes:' .Net, jquery, html, css3, jade, sass'})
+
+					+itemInfo({nums:"10", url:"www.nossococo.com", titulo:'Nossococo ',roll:" Front-end", agency:'Los Rodriguez', client:'Nossococo', descripcion:'I have a participation in a friends agency where we were able to come with diferentes ideas to resolve the horizontal scroll which was the main part of the site. It was made with jquery and html.', programador:'Juan Fuentes', disenador:' Sindy Salas, Alan Rodriguez', imagen:'nosococo',  lenguajes:' jquery, html'})
+					+itemInfo({nums:"11", url:"www.vwthinkblue.mx/mimundoideal", titulo:'Mi Mundo Ideal, from Think Blue',roll:" Front-end", agency:'Grupo w', client:'Volkswagen', descripcion:'This project is one of the most interesting ones I have been involved into, first of all due I learn how to implement many amenities from jade and sass. We build a team of 3 front-ends including myself because a deadline issue, that made us finish the project in 5 days.', programador:'Esteban Ramirez, Ivan Nuñez', disenador:' Sindy Salas, Esteban Madrigal', imagen:'mundoIdeal',  lenguajes:' phaser, jquery, jade, sass'})
+					+itemInfo({nums:"12", url:"encuestasmexico.mx", titulo:'Encuestas México',roll:" Front-end", agency:'HOE', client:'Encuestas México', descripcion:'This project gave me the opportunity to be both developer and designer, I have full freedom to make all I want, but as developer I tried to keep it simple as possible, it has a DB implemented on PHP to make it easier to the client to admin as he needs it.', programador:'Greco Dávila', disenador:' Greco Dávila', imagen:'encuestas',  lenguajes:' php, jquery, jade, css2'})
+
+			#holdQrs
+				.wrappQrs#mobIcon-3-qr
+				.wrappQrs#mobIcon-5-qr
+				.wrappQrs#mobIcon-6-qr
+				.wrappQrs#mobIcon-9-qr
+					
+			#holdBtns
+				.arriba.btnNavPortafolio(data-animation="56")
+				.abajo.btnNavPortafolio(data-animation="57")
+			#closeInfo
+				.holdCubs
+					.c2.lik1.topLk
+					.c2.lik2.topLk
+					.c2.lik1.bottLk
+					.c2.lik2.bottLk

@@ -1,0 +1,434 @@
+
+#holdPortafolio
+	width: 100%
+	height: 100%
+	position: relative
+	.holdGrid
+		width: 100%
+		height: 100%
+		position: absolute
+		top: 0
+		.itemGrid
+			width: 33%
+			height: 24.38%
+			position: relative
+			float: left
+			margin-bottom: 0.5%
+			overflow: hidden
+			cursor: pointer
+			&.itemCol-2
+				margin-left: 0.5%
+				margin-right: 0.5%
+			&.itemRow-4
+				margin-bottom: 0
+			.holdImg
+				width: 100%
+				height: 100%
+				position: absolute
+				top: 0
+				background-color: rgb(26,26,26)
+				overflow: hidden
+				.imgIns 
+					width: 100%
+					height: 100%
+					position: absolute
+					top: 0
+					background-position: center
+					background-repeat: no-repeat
+					.imgInFull 
+						min-width: 120px
+						height: 30px
+						padding: 0 23%
+						+is-center
+						p 
+							text-align: center
+							height: 35px
+							margin: 0 auto
+							color: #ababab 
+							font-family: 'din'
+							font-size: 22px
+							border: 2px solid #ababab
+							padding-top: 10px
+					img 
+						width: 100%
+				.imgHover
+					opacity: 0
+
+					
+		
+			.contein
+				width: 95%
+				height: 60px
+				position: absolute
+				bottom: 0
+				left: -110%
+				.plecaName
+					width: 100%
+					height: 100%
+					position: absolute
+					+is-center
+					background-color: rgba(26,26,26,0.7)
+					.infoThumb
+						width: 100%
+						position: absolute
+						bottom: 10px
+						text-align: center
+						p 
+							
+							font-size: 20px
+							color: #d1d1d1
+						span 
+							font-size: 12px
+							color: #d1d1d1
+				.holdIcon
+					width: 60px
+					height: 60px
+					position: relative
+					margin: 0 auto
+					
+	#MainInfo
+		width: 100%
+		height: 0
+		position: absolute
+		top: 50%
+		left: 0
+		overflow: hidden
+		#closeInfo
+			width: 20px
+			height: 20px
+			position: absolute
+			top: 10px
+			right: 10px
+			cursor: pointer
+			.holdCubs
+				width: 20px
+				height: 20px
+				position: absolute
+				top: 0px
+				left: 0px
+			
+				.c2 
+					width: 8px
+					height: 8px
+					position: absolute
+					float: left
+					background-color: rgba(250,250,250, 0.6)
+					&.lik1
+						left: 0
+					&.lik2
+						right: 0
+					&.topLK
+						top: 0
+					&.bottLK
+						bottom: 0
+
+
+		#holdBtns
+			width: 25px
+			height: 50px
+			position: absolute
+			top: 10px
+			left: 10px
+			.btnNavPortafolio
+				width: 25px
+				height: 25px
+				position: relative
+				top: 0
+				cursor: pointer
+				&.arriba
+					background-image: url('../assets/img/portafolio/up.png')
+				&.abajo
+					background-image: url('../assets/img/portafolio/down.png')
+				&:hover 
+					background-color: rgba(0,0,0, 0.3)
+		#holdQrs
+			width: 250px
+			height: 250px
+			position: absolute
+			bottom: 10px
+			right: -350px
+			background-color: rgba(0,0,0, 0.3)
+			display: block
+			
+			.wrappQrs
+				width: 200px
+				height: 200px
+				+is-center
+				background-repeat: no-repeat
+				background-position: center
+				display: none
+				&#mobIcon-3-qr
+					background-image: url("../assets/img/portafolio/qrs/pologtiQr.png")
+				&#mobIcon-5-qr
+					background-image: url("../assets/img/portafolio/qrs/promocionesQr.png")
+				&#mobIcon-6-qr
+					background-image: url("../assets/img/portafolio/qrs/jdQr.png")
+				&#mobIcon-9-qr
+					background-image: url("../assets/img/portafolio/qrs/rally.png")
+
+		.mainHold
+			width: 100%
+			height: 100%
+			position: relative
+			float: left
+			
+			.inMainHold
+				position: relative
+				width: 100%
+				height: 100%
+				-webkit-perspective: 1200px
+				-moz-perspective: 1200px
+				perspective: 1200px
+				&#rightHold
+					top: 0%
+				&#leftHold
+					top: 0%
+
+				.itemInfo
+					width: 100%
+					height: 100%
+					position: absolute
+					top: 0
+					left: 0
+					visibility: hidden
+					overflow: hidden
+					-webkit-backface-visibility: hidden
+					-moz-backface-visibility: hidden
+					backface-visibility: hidden
+					-webkit-transform: translate3d(0, 0, 0)
+					-moz-transform: translate3d(0, 0, 0)
+					transform: translate3d(0, 0, 0)
+					-webkit-transform-style: preserve-3d
+					-moz-transform-style: preserve-3d
+					transform-style: preserve-3d
+					background-color:  rgba(60,60,60,0.98)
+					&.pt-page-current, .no-js .pt-page 
+						visibility: visible
+						z-index: 1		
+					&.no-js body 
+						overflow: auto
+					&.pt-page-ontop 
+						z-index: 999
+					
+					
+					.holdAll
+						width: 90%
+						height: 90%
+						+is-center
+						.centraInfo
+							min-height: 300px
+							min-width: 400px
+							position: relative
+							margin: 0 auto
+							padding-top: 70px
+							.title
+								width: 100%
+								max-width: 1500px
+								height: 60px
+								font-size: 35px
+								text-align: center 
+								margin: 0 auto
+								margin-bottom: 45px
+								p 	
+									width: auto
+									height: 35px
+									margin: 0 auto
+									padding: 10px
+									color: #ababab 
+									font-family: 'dinBold'
+									border: 2px solid #ababab
+							.description
+								width: 60%
+								margin: 0 auto
+								text-align: center
+								margin-bottom: 40px
+
+								p 
+									font-size: 15px
+									line-height: 22px
+							.left
+								text-align: center
+								margin-bottom: 5px
+								font-size: 13px
+								p 
+									left: left
+									span 
+										margin-left: 10px
+										font-family: 'gotham_mediumregular'
+										font-size: 14px
+										letter-spacing: 1px
+							.visita
+								width: 100px
+								height: 65px
+								position: relative
+								margin: 0 auto
+								margin-top: 15px
+								p 
+									font-size: 15px
+									width: 100%
+									height: 15px
+									font-family: 'dinRegular'
+								.iconBtn
+									width: 50%
+									height: 50px
+									margin: 0 auto
+								.mobileIcon
+									background-image: url('../assets/img/portafolio/qrs/mobile.png')
+									background-position: 8px
+									cursor: pointer
+									display: none
+									float: left
+								#mobIcon-3, #mobIcon-5, #mobIcon-6, #mobIcon-9
+									display: block
+								.desktopIcon
+									background-image: url('../assets/img/portafolio/qrs/desktop.png')
+								#deskIcon-3, #deskIcon-5, #deskIcon-6, #deskIcon-9
+									float: left
+								
+
+
+						.imgsCenter
+							width: 100%
+							min-width: 500px
+							max-width: 1500px
+							margin: 0 auto
+							height: 283px
+							position: relative
+							&#imgs-3
+								width: 40%
+								max-width: 590px
+								min-width: 360px
+							&#imgs-5
+								width: 40%
+								max-width: 590px
+								min-width: 360px
+							&#imgs-6
+								width: 40%
+								max-width: 590px
+								min-width: 360px
+							.maskImg
+								width: 100%
+								height: 100%
+								position: absolute
+								
+								.holdAllImgs
+									width: 100%
+									height: 100%
+									position: absolute
+									top: 0
+									left: 0
+									-webkit-transform-style: preserve-3d
+									-moz-transform-style: preserve-3d
+									-o-transform-style: preserve-3d
+									-ms-transform-style: preserve-3d
+									transform-style: preserve-3d
+									-webkit-transform: perspective(1600px)
+									-webkit-perspective-origin: 50% 50%
+									.sigleImg
+										width: 33%
+										height: 283px
+										position: relative
+										float: left
+										&.Novideo-1 
+											display: none
+										&.Novideo-2
+											display: none
+										
+										img
+											width: 100%	
+											-webkit-box-shadow: 0px 7px 22px 0px rgba(0,0,0,0.3)
+											box-shadow: 0px 7px 22px 0px rgba(0,0,0,0.3)											
+											+is-center
+									.center
+										margin-right: 0.5%
+										margin-left: 0.5%
+									.leftSide
+										-webkit-transform-origin: right center
+										-webkit-transform: rotateY(45deg)
+										-webkit-perspective-origin: 50% 50%
+										
+									.rightSide
+										-webkit-transform-origin: left center
+										-webkit-transform: rotateY(-45deg)
+										-webkit-perspective-origin: 50% 50%
+										
+										.imgTitle
+											width: 120px
+											height: 50px
+											position: absolute
+											right: 0
+											bottom: 0
+											background-color: rgba(0,0,0,0.7)
+											p 
+												text-align: center
+												color: white
+												font-size: 12px
+									.holdVideo
+										width: 500px
+										height: 281px
+										position: absolute
+										+is-center
+										display: none
+										&#video-1
+											display: block
+											-webkit-box-shadow: 0px 7px 22px 0px rgba(0,0,0,0.3)
+											box-shadow: 0px 7px 22px 0px rgba(0,0,0,0.3)
+
+										&#video-2
+											display: block
+											-webkit-box-shadow: 0px 7px 22px 0px rgba(0,0,0,0.3)
+											box-shadow: 0px 7px 22px 0px rgba(0,0,0,0.3)
+
+@media screen and (max-height: 800px) and (max-width:1480px)
+	#holdPortafolio #MainInfo .mainHold .inMainHold .itemInfo .holdAll 
+		.imgsCenter
+			max-width: 1200px
+		.centraInfo
+			padding-top: 20px
+			.title 
+				margin: 0 auto
+				max-width: 1200px
+			.description
+				width: 95%
+				margin-bottom: 20px
+			.holThings
+				width: 100%
+				height: 45px
+				margin-bottom: 10px
+
+				.veintis
+					width: 33.3%
+					float: left
+
+@media screen and  (max-width: 800px)
+	#holdPortafolio #MainInfo .mainHold .inMainHold .itemInfo .holdAll 
+		.imgsCenter
+			height: 250px
+		.centraInfo
+			padding-top: 20px
+
+	#holdPortafolio #MainInfo #holdBtns
+		width: 50px
+		height: 150px
+		top: 20px
+		left: 0
+		.btnNavPortafolio
+			width: 50px
+			height: 50px
+			background-position: center
+			background-repeat: no-repeat
+			&.abajo
+				top: 50px
+
+	#holdPortafolio #MainInfo #closeInfo
+		top: 30px
+		+scale(1.4,1.4)
+		
+
+
+@media screen and (min-width: 1540px)
+	// #holdPortafolio .holdGrid .itemGrid .holdImg
+	// 	.imgIns 
+	// 		+scale(1.4, 1.4)
+
+					

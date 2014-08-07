@@ -1,0 +1,1811 @@
+{
+  "id": "97a2cd60",
+  "cfgVersion": 1,
+  "name": "portafolio",
+  "files": {
+    "66316806": {
+      "id": "66316806",
+      "pid": "97a2cd60",
+      "name": "scrollers.js",
+      "input": "public\\js\\scrollers.js",
+      "customOutput": false,
+      "type": "Js",
+      "config": {
+        "autoCompile": true,
+        "uglify": true,
+        "mangle": true,
+        "sourcemaps": false
+      }
+    },
+    "8f4fd724": {
+      "id": "8f4fd724",
+      "pid": "97a2cd60",
+      "name": "index.jade",
+      "input": "production\\index.jade",
+      "customOutput": false,
+      "type": "Jade",
+      "config": {
+        "autoCompile": true,
+        "pretty": true
+      }
+    },
+    "5f42186d": {
+      "id": "5f42186d",
+      "pid": "97a2cd60",
+      "name": "jquery-2.1.1.js",
+      "input": "production\\js\\vendor\\jquery-2.1.1.js",
+      "customOutput": false,
+      "type": "Js",
+      "config": {
+        "autoCompile": true,
+        "uglify": true,
+        "mangle": true,
+        "sourcemaps": false
+      }
+    },
+    "3cf2591b": {
+      "id": "3cf2591b",
+      "pid": "97a2cd60",
+      "name": "Phaser.js",
+      "input": "production\\js\\vendor\\Phaser.js",
+      "customOutput": false,
+      "type": "Js",
+      "config": {
+        "autoCompile": true,
+        "uglify": true,
+        "mangle": true,
+        "sourcemaps": false
+      }
+    },
+    "b2cade26": {
+      "id": "b2cade26",
+      "pid": "97a2cd60",
+      "name": "jquery.easing.1.3.js",
+      "input": "public\\js\\vendor\\jquery.easing.1.3.js",
+      "customOutput": false,
+      "type": "Js",
+      "config": {
+        "autoCompile": true,
+        "uglify": true,
+        "mangle": true,
+        "sourcemaps": false
+      }
+    },
+    "ec78a6b6": {
+      "id": "ec78a6b6",
+      "pid": "97a2cd60",
+      "name": "jquery-2.1.1.js",
+      "input": "public\\js\\vendor\\jquery-2.1.1.js",
+      "customOutput": false,
+      "type": "Js",
+      "config": {
+        "autoCompile": true,
+        "uglify": true,
+        "mangle": true,
+        "sourcemaps": false
+      }
+    },
+    "f2d33640": {
+      "id": "f2d33640",
+      "pid": "97a2cd60",
+      "name": "Phaser.js",
+      "input": "public\\js\\vendor\\Phaser.js",
+      "customOutput": false,
+      "type": "Js",
+      "config": {
+        "autoCompile": true,
+        "uglify": true,
+        "mangle": true,
+        "sourcemaps": false
+      }
+    },
+    "01018ca8": {
+      "id": "01018ca8",
+      "pid": "97a2cd60",
+      "name": "main.sass",
+      "input": "production\\css\\main.sass",
+      "customOutput": false,
+      "type": "Sass",
+      "config": {
+        "autoCompile": true,
+        "lineNumbers": false,
+        "unixNewlines": false,
+        "sourcemaps": false,
+        "debug": false,
+        "compass": false,
+        "fullCompass": false,
+        "outputStyle": "expanded",
+        "autoprefixer": false
+      }
+    },
+    "e59c2fb2": {
+      "id": "e59c2fb2",
+      "pid": "97a2cd60",
+      "name": "canvasGraficas.js",
+      "input": "production\\js\\canvasGraficas.js",
+      "customOutput": false,
+      "type": "Js",
+      "config": {
+        "autoCompile": true,
+        "uglify": true,
+        "mangle": true,
+        "sourcemaps": false
+      }
+    },
+    "f1a03168": {
+      "id": "f1a03168",
+      "pid": "97a2cd60",
+      "name": "jquery.easing.1.3.js",
+      "input": "production\\js\\vendor\\jquery.easing.1.3.js",
+      "customOutput": false,
+      "type": "Js",
+      "config": {
+        "autoCompile": true,
+        "uglify": true,
+        "mangle": true,
+        "sourcemaps": false
+      }
+    },
+    "08b203f5": {
+      "id": "08b203f5",
+      "pid": "97a2cd60",
+      "name": "canvasGraficas.js",
+      "input": "public\\js\\canvasGraficas.js",
+      "customOutput": false,
+      "type": "Js",
+      "config": {
+        "autoCompile": true,
+        "uglify": true,
+        "mangle": true,
+        "sourcemaps": false
+      }
+    },
+    "e39b8877": {
+      "id": "e39b8877",
+      "pid": "97a2cd60",
+      "name": "pixi.dev.js",
+      "input": "public\\js\\vendor\\pixi.dev.js",
+      "customOutput": false,
+      "type": "Js",
+      "config": {
+        "autoCompile": true,
+        "uglify": true,
+        "mangle": true,
+        "sourcemaps": false
+      }
+    },
+    "3006424d": {
+      "id": "3006424d",
+      "pid": "97a2cd60",
+      "name": "portafolio.js",
+      "input": "public\\js\\portafolio.js",
+      "customOutput": false,
+      "type": "Js",
+      "config": {
+        "autoCompile": true,
+        "uglify": true,
+        "mangle": true,
+        "sourcemaps": false
+      }
+    },
+    "9bd3c962": {
+      "id": "9bd3c962",
+      "pid": "97a2cd60",
+      "name": "main.js",
+      "input": "public\\js\\main.js",
+      "customOutput": false,
+      "type": "Js",
+      "config": {
+        "autoCompile": true,
+        "uglify": true,
+        "mangle": true,
+        "sourcemaps": false
+      }
+    },
+    "9830b8c4": {
+      "id": "9830b8c4",
+      "pid": "97a2cd60",
+      "name": "intro.js",
+      "input": "public\\js\\intro.js",
+      "customOutput": false,
+      "type": "Js",
+      "config": {
+        "autoCompile": true,
+        "uglify": true,
+        "mangle": true,
+        "sourcemaps": false
+      }
+    },
+    "96b3a762": {
+      "id": "96b3a762",
+      "pid": "97a2cd60",
+      "name": "pagetransitions.js",
+      "input": "public\\js\\pagetransitions.js",
+      "customOutput": false,
+      "type": "Js",
+      "config": {
+        "autoCompile": true,
+        "uglify": true,
+        "mangle": true,
+        "sourcemaps": false
+      }
+    },
+    "cc47e01a": {
+      "id": "cc47e01a",
+      "pid": "97a2cd60",
+      "name": "modernizr.custom.js",
+      "input": "public\\js\\modernizr.custom.js",
+      "customOutput": false,
+      "type": "Js",
+      "config": {
+        "autoCompile": true,
+        "uglify": true,
+        "mangle": true,
+        "sourcemaps": false
+      }
+    },
+    "c2b306f2": {
+      "id": "c2b306f2",
+      "pid": "97a2cd60",
+      "name": "timer.js",
+      "input": "public\\js\\timer.js",
+      "customOutput": false,
+      "type": "Js",
+      "config": {
+        "autoCompile": true,
+        "uglify": true,
+        "mangle": true,
+        "sourcemaps": false
+      }
+    },
+    "ff6ce67c": {
+      "id": "ff6ce67c",
+      "pid": "97a2cd60",
+      "name": "prube.js",
+      "input": "public\\js\\prube.js",
+      "customOutput": false,
+      "type": "Js",
+      "config": {
+        "autoCompile": true,
+        "uglify": true,
+        "mangle": true,
+        "sourcemaps": false
+      }
+    },
+    "820d9a84": {
+      "id": "820d9a84",
+      "pid": "97a2cd60",
+      "name": "loader.js",
+      "input": "public\\js\\loader.js",
+      "customOutput": false,
+      "type": "Js",
+      "config": {
+        "autoCompile": true,
+        "uglify": true,
+        "mangle": true,
+        "sourcemaps": false
+      }
+    }
+  },
+  "imports": {
+    "66081210": {
+      "id": "66081210",
+      "pid": "97a2cd60",
+      "path": "production\\css\\_fonts.sass",
+      "parents": [
+        "01018ca8"
+      ]
+    },
+    "d3bce750": {
+      "id": "d3bce750",
+      "pid": "97a2cd60",
+      "path": "production\\views\\_head.jade",
+      "parents": [
+        "8f4fd724"
+      ]
+    },
+    "340c6636": {
+      "id": "340c6636",
+      "pid": "97a2cd60",
+      "path": "production\\views\\_nav.jade",
+      "parents": [
+        "8f4fd724"
+      ]
+    },
+    "fbbb1b48": {
+      "id": "fbbb1b48",
+      "pid": "97a2cd60",
+      "path": "production\\views\\_sect1.jade",
+      "parents": [
+        "8f4fd724"
+      ]
+    },
+    "6a4c86b2": {
+      "id": "6a4c86b2",
+      "pid": "97a2cd60",
+      "path": "production\\views\\_portafolio.jade",
+      "parents": [
+        "8f4fd724"
+      ]
+    },
+    "cfad9207": {
+      "id": "cfad9207",
+      "pid": "97a2cd60",
+      "path": "production\\views\\_scripts.jade",
+      "parents": [
+        "8f4fd724"
+      ]
+    },
+    "a6243046": {
+      "id": "a6243046",
+      "pid": "97a2cd60",
+      "path": "production\\css\\_normalize.sass",
+      "parents": [
+        "01018ca8"
+      ]
+    },
+    "55d413a9": {
+      "id": "55d413a9",
+      "pid": "97a2cd60",
+      "path": "production\\css\\_reset.sass",
+      "parents": [
+        "01018ca8"
+      ]
+    },
+    "a40e6564": {
+      "id": "a40e6564",
+      "pid": "97a2cd60",
+      "path": "production\\css\\_variables.sass",
+      "parents": [
+        "01018ca8"
+      ]
+    },
+    "c177dd20": {
+      "id": "c177dd20",
+      "pid": "97a2cd60",
+      "path": "production\\css\\fullStyles\\_nav.sass",
+      "parents": [
+        "01018ca8"
+      ]
+    },
+    "9d3c6eef": {
+      "id": "9d3c6eef",
+      "pid": "97a2cd60",
+      "path": "production\\css\\fullStyles\\_sect1.sass",
+      "parents": [
+        "01018ca8"
+      ]
+    },
+    "dc551a56": {
+      "id": "dc551a56",
+      "pid": "97a2cd60",
+      "path": "production\\css\\fullStyles\\_portafolio.sass",
+      "parents": [
+        "01018ca8"
+      ]
+    },
+    "56cfd117": {
+      "id": "56cfd117",
+      "pid": "97a2cd60",
+      "path": "production\\css\\fullStyles\\_shares.sass",
+      "parents": [
+        "01018ca8"
+      ]
+    },
+    "ee4fd780": {
+      "id": "ee4fd780",
+      "pid": "97a2cd60",
+      "path": "production\\views\\_conection.jade",
+      "parents": [
+        "8f4fd724"
+      ]
+    },
+    "70e13f9e": {
+      "id": "70e13f9e",
+      "pid": "97a2cd60",
+      "path": "production\\views\\_loader.jade",
+      "parents": [
+        "8f4fd724"
+      ]
+    },
+    "094c7c8a": {
+      "id": "094c7c8a",
+      "pid": "97a2cd60",
+      "path": "production\\css\\fullStyles\\_loader.sass",
+      "parents": [
+        "01018ca8"
+      ]
+    },
+    "dabafd49": {
+      "id": "dabafd49",
+      "pid": "97a2cd60",
+      "path": "production\\views\\_fullConctac.jade",
+      "parents": [
+        "8f4fd724"
+      ]
+    },
+    "f39ab5a3": {
+      "id": "f39ab5a3",
+      "pid": "97a2cd60",
+      "path": "production\\css\\fullStyles\\_contact.sass",
+      "parents": [
+        "01018ca8"
+      ]
+    }
+  },
+  "images": {
+    "24361079": {
+      "id": "24361079",
+      "pid": "97a2cd60",
+      "path": "public\\assets\\img\\portafolio\\rally\\center.png",
+      "size": 945896,
+      "name": "center.png",
+      "type": "Png",
+      "initialSize": 945896,
+      "status": "NOT_OPTIMIZED"
+    },
+    "89024419": {
+      "id": "89024419",
+      "pid": "97a2cd60",
+      "path": "asset\\encuestas\\view2.png",
+      "size": 995103,
+      "name": "view2.png",
+      "type": "Png",
+      "initialSize": 995103,
+      "status": "NOT_OPTIMIZED"
+    },
+    "d171fee2": {
+      "id": "d171fee2",
+      "pid": "97a2cd60",
+      "path": "asset\\Captura de pantalla 2014-07-26 a la(s) 15.45.47.png",
+      "size": 721547,
+      "name": "Captura de pantalla 2014-07-26 a la(s) 15.45.47.png",
+      "type": "Png",
+      "initialSize": 721547,
+      "status": "NOT_OPTIMIZED"
+    },
+    "cf0de598": {
+      "id": "cf0de598",
+      "pid": "97a2cd60",
+      "path": "asset\\Captura de pantalla 2014-07-26 a la(s) 15.46.09.png",
+      "size": 246913,
+      "name": "Captura de pantalla 2014-07-26 a la(s) 15.46.09.png",
+      "type": "Png",
+      "initialSize": 246913,
+      "status": "NOT_OPTIMIZED"
+    },
+    "3ee34eb5": {
+      "id": "3ee34eb5",
+      "pid": "97a2cd60",
+      "path": "asset\\Captura de pantalla 2014-07-26 a la(s) 15.46.59.png",
+      "size": 754628,
+      "name": "Captura de pantalla 2014-07-26 a la(s) 15.46.59.png",
+      "type": "Png",
+      "initialSize": 754628,
+      "status": "NOT_OPTIMIZED"
+    },
+    "ff1c4095": {
+      "id": "ff1c4095",
+      "pid": "97a2cd60",
+      "path": "asset\\Captura de pantalla 2014-07-26 a la(s) 15.48.38.png",
+      "size": 1679277,
+      "name": "Captura de pantalla 2014-07-26 a la(s) 15.48.38.png",
+      "type": "Png",
+      "initialSize": 1679277,
+      "status": "NOT_OPTIMIZED"
+    },
+    "a01afcf7": {
+      "id": "a01afcf7",
+      "pid": "97a2cd60",
+      "path": "asset\\Captura de pantalla 2014-07-26 a la(s) 15.49.08.png",
+      "size": 876538,
+      "name": "Captura de pantalla 2014-07-26 a la(s) 15.49.08.png",
+      "type": "Png",
+      "initialSize": 876538,
+      "status": "NOT_OPTIMIZED"
+    },
+    "30137aa1": {
+      "id": "30137aa1",
+      "pid": "97a2cd60",
+      "path": "asset\\Captura de pantalla 2014-07-26 a la(s) 15.49.37.png",
+      "size": 600947,
+      "name": "Captura de pantalla 2014-07-26 a la(s) 15.49.37.png",
+      "type": "Png",
+      "initialSize": 600947,
+      "status": "NOT_OPTIMIZED"
+    },
+    "dba50b05": {
+      "id": "dba50b05",
+      "pid": "97a2cd60",
+      "path": "asset\\Captura de pantalla 2014-07-26 a la(s) 15.53.43.png",
+      "size": 990062,
+      "name": "Captura de pantalla 2014-07-26 a la(s) 15.53.43.png",
+      "type": "Png",
+      "initialSize": 990062,
+      "status": "NOT_OPTIMIZED"
+    },
+    "7320338e": {
+      "id": "7320338e",
+      "pid": "97a2cd60",
+      "path": "asset\\Captura de pantalla 2014-07-26 a la(s) 15.53.53.png",
+      "size": 771823,
+      "name": "Captura de pantalla 2014-07-26 a la(s) 15.53.53.png",
+      "type": "Png",
+      "initialSize": 771823,
+      "status": "NOT_OPTIMIZED"
+    },
+    "438ec586": {
+      "id": "438ec586",
+      "pid": "97a2cd60",
+      "path": "asset\\Captura de pantalla 2014-07-26 a la(s) 15.58.02.png",
+      "size": 1043384,
+      "name": "Captura de pantalla 2014-07-26 a la(s) 15.58.02.png",
+      "type": "Png",
+      "initialSize": 1043384,
+      "status": "NOT_OPTIMIZED"
+    },
+    "245e853b": {
+      "id": "245e853b",
+      "pid": "97a2cd60",
+      "path": "asset\\Captura de pantalla 2014-07-26 a la(s) 16.00.06.png",
+      "size": 966395,
+      "name": "Captura de pantalla 2014-07-26 a la(s) 16.00.06.png",
+      "type": "Png",
+      "initialSize": 966395,
+      "status": "NOT_OPTIMIZED"
+    },
+    "e490e802": {
+      "id": "e490e802",
+      "pid": "97a2cd60",
+      "path": "asset\\Captura de pantalla 2014-07-26 a la(s) 16.02.33.png",
+      "size": 796148,
+      "name": "Captura de pantalla 2014-07-26 a la(s) 16.02.33.png",
+      "type": "Png",
+      "initialSize": 796148,
+      "status": "NOT_OPTIMIZED"
+    },
+    "9f20e843": {
+      "id": "9f20e843",
+      "pid": "97a2cd60",
+      "path": "asset\\Captura de pantalla 2014-07-26 a la(s) 16.03.28.png",
+      "size": 869976,
+      "name": "Captura de pantalla 2014-07-26 a la(s) 16.03.28.png",
+      "type": "Png",
+      "initialSize": 869976,
+      "status": "NOT_OPTIMIZED"
+    },
+    "5013d3c3": {
+      "id": "5013d3c3",
+      "pid": "97a2cd60",
+      "path": "asset\\Captura de pantalla 2014-07-26 a la(s) 16.11.45.png",
+      "size": 681448,
+      "name": "Captura de pantalla 2014-07-26 a la(s) 16.11.45.png",
+      "type": "Png",
+      "initialSize": 681448,
+      "status": "NOT_OPTIMIZED"
+    },
+    "a400d7a1": {
+      "id": "a400d7a1",
+      "pid": "97a2cd60",
+      "path": "asset\\Captura de pantalla 2014-07-26 a la(s) 16.14.58.png",
+      "size": 787867,
+      "name": "Captura de pantalla 2014-07-26 a la(s) 16.14.58.png",
+      "type": "Png",
+      "initialSize": 787867,
+      "status": "NOT_OPTIMIZED"
+    },
+    "af66a4aa": {
+      "id": "af66a4aa",
+      "pid": "97a2cd60",
+      "path": "asset\\Captura de pantalla 2014-07-26 a la(s) 16.15.13.png",
+      "size": 660658,
+      "name": "Captura de pantalla 2014-07-26 a la(s) 16.15.13.png",
+      "type": "Png",
+      "initialSize": 660658,
+      "status": "NOT_OPTIMIZED"
+    },
+    "4bda59c4": {
+      "id": "4bda59c4",
+      "pid": "97a2cd60",
+      "path": "asset\\Captura de pantalla 2014-07-26 a la(s) 16.23.39.png",
+      "size": 1367188,
+      "name": "Captura de pantalla 2014-07-26 a la(s) 16.23.39.png",
+      "type": "Png",
+      "initialSize": 1367188,
+      "status": "NOT_OPTIMIZED"
+    },
+    "3dc494ae": {
+      "id": "3dc494ae",
+      "pid": "97a2cd60",
+      "path": "asset\\Captura de pantalla 2014-07-26 a la(s) 16.24.05.png",
+      "size": 896253,
+      "name": "Captura de pantalla 2014-07-26 a la(s) 16.24.05.png",
+      "type": "Png",
+      "initialSize": 896253,
+      "status": "NOT_OPTIMIZED"
+    },
+    "f6d2af41": {
+      "id": "f6d2af41",
+      "pid": "97a2cd60",
+      "path": "asset\\Captura de pantalla 2014-07-26 a la(s) 16.24.15.png",
+      "size": 631154,
+      "name": "Captura de pantalla 2014-07-26 a la(s) 16.24.15.png",
+      "type": "Png",
+      "initialSize": 631154,
+      "status": "NOT_OPTIMIZED"
+    },
+    "bc4581b3": {
+      "id": "bc4581b3",
+      "pid": "97a2cd60",
+      "path": "asset\\Captura de pantalla 2014-07-26 a la(s) 16.47.22.png",
+      "size": 1102605,
+      "name": "Captura de pantalla 2014-07-26 a la(s) 16.47.22.png",
+      "type": "Png",
+      "initialSize": 1102605,
+      "status": "NOT_OPTIMIZED"
+    },
+    "007e41c2": {
+      "id": "007e41c2",
+      "pid": "97a2cd60",
+      "path": "asset\\Captura de pantalla 2014-07-26 a la(s) 16.47.58.png",
+      "size": 1221680,
+      "name": "Captura de pantalla 2014-07-26 a la(s) 16.47.58.png",
+      "type": "Png",
+      "initialSize": 1221680,
+      "status": "NOT_OPTIMIZED"
+    },
+    "fbd5b141": {
+      "id": "fbd5b141",
+      "pid": "97a2cd60",
+      "path": "asset\\Captura de pantalla 2014-07-26 a la(s) 16.48.40.png",
+      "size": 1283407,
+      "name": "Captura de pantalla 2014-07-26 a la(s) 16.48.40.png",
+      "type": "Png",
+      "initialSize": 1283407,
+      "status": "NOT_OPTIMIZED"
+    },
+    "eca936d9": {
+      "id": "eca936d9",
+      "pid": "97a2cd60",
+      "path": "asset\\center.png",
+      "size": 402927,
+      "name": "center.png",
+      "type": "Png",
+      "initialSize": 402927,
+      "status": "NOT_OPTIMIZED"
+    },
+    "c5544633": {
+      "id": "c5544633",
+      "pid": "97a2cd60",
+      "path": "asset\\encuestas\\view1.png",
+      "size": 1060276,
+      "name": "view1.png",
+      "type": "Png",
+      "initialSize": 1060276,
+      "status": "NOT_OPTIMIZED"
+    },
+    "d2085d47": {
+      "id": "d2085d47",
+      "pid": "97a2cd60",
+      "path": "asset\\encuestas\\view3.png",
+      "size": 541479,
+      "name": "view3.png",
+      "type": "Png",
+      "initialSize": 541479,
+      "status": "NOT_OPTIMIZED"
+    },
+    "e764fe1b": {
+      "id": "e764fe1b",
+      "pid": "97a2cd60",
+      "path": "asset\\left.png",
+      "size": 263612,
+      "name": "left.png",
+      "type": "Png",
+      "initialSize": 263612,
+      "status": "NOT_OPTIMIZED"
+    },
+    "cd14268f": {
+      "id": "cd14268f",
+      "pid": "97a2cd60",
+      "path": "asset\\right.png",
+      "size": 414903,
+      "name": "right.png",
+      "type": "Png",
+      "initialSize": 414903,
+      "status": "NOT_OPTIMIZED"
+    },
+    "a0856d90": {
+      "id": "a0856d90",
+      "pid": "97a2cd60",
+      "path": "public\\assets\\img\\home\\front-end.png",
+      "size": 5083,
+      "name": "front-end.png",
+      "type": "Png",
+      "initialSize": 5083,
+      "status": "NOT_OPTIMIZED"
+    },
+    "8ced6b1e": {
+      "id": "8ced6b1e",
+      "pid": "97a2cd60",
+      "path": "public\\assets\\img\\home\\greco.png",
+      "size": 15642,
+      "name": "greco.png",
+      "type": "Png",
+      "initialSize": 15642,
+      "status": "NOT_OPTIMIZED"
+    },
+    "6b673878": {
+      "id": "6b673878",
+      "pid": "97a2cd60",
+      "path": "public\\assets\\img\\home\\web.png",
+      "size": 3789,
+      "name": "web.png",
+      "type": "Png",
+      "initialSize": 3789,
+      "status": "NOT_OPTIMIZED"
+    },
+    "d6a4fd89": {
+      "id": "d6a4fd89",
+      "pid": "97a2cd60",
+      "path": "public\\assets\\img\\portafolio\\down.png",
+      "size": 3003,
+      "name": "down.png",
+      "type": "Png",
+      "initialSize": 3003,
+      "status": "NOT_OPTIMIZED"
+    },
+    "ef7b544f": {
+      "id": "ef7b544f",
+      "pid": "97a2cd60",
+      "path": "public\\assets\\img\\portafolio\\encuestas\\center.jpg",
+      "size": 488776,
+      "name": "center.jpg",
+      "type": "Jpg",
+      "initialSize": 488776,
+      "status": "NOT_OPTIMIZED"
+    },
+    "009ac5f1": {
+      "id": "009ac5f1",
+      "pid": "97a2cd60",
+      "path": "public\\assets\\img\\portafolio\\encuestas\\center.png",
+      "size": 999483,
+      "name": "center.png",
+      "type": "Png",
+      "initialSize": 999483,
+      "status": "NOT_OPTIMIZED"
+    },
+    "3158c3bb": {
+      "id": "3158c3bb",
+      "pid": "97a2cd60",
+      "path": "public\\assets\\img\\portafolio\\encuestas\\left.png",
+      "size": 897488,
+      "name": "left.png",
+      "type": "Png",
+      "initialSize": 897488,
+      "status": "NOT_OPTIMIZED"
+    },
+    "c26c097b": {
+      "id": "c26c097b",
+      "pid": "97a2cd60",
+      "path": "public\\assets\\img\\portafolio\\encuestas\\right.png",
+      "size": 307379,
+      "name": "right.png",
+      "type": "Png",
+      "initialSize": 307379,
+      "status": "NOT_OPTIMIZED"
+    },
+    "0ed1779d": {
+      "id": "0ed1779d",
+      "pid": "97a2cd60",
+      "path": "public\\assets\\img\\portafolio\\encuestas.jpg",
+      "size": 87280,
+      "name": "encuestas.jpg",
+      "type": "Jpg",
+      "initialSize": 87280,
+      "status": "NOT_OPTIMIZED"
+    },
+    "eb30dd8d": {
+      "id": "eb30dd8d",
+      "pid": "97a2cd60",
+      "path": "public\\assets\\img\\portafolio\\encuestas.png",
+      "size": 82701,
+      "name": "encuestas.png",
+      "type": "Png",
+      "initialSize": 82701,
+      "status": "NOT_OPTIMIZED"
+    },
+    "94193d30": {
+      "id": "94193d30",
+      "pid": "97a2cd60",
+      "path": "public\\assets\\img\\portafolio\\grid\\encuestas-hover.jpg",
+      "size": 59935,
+      "name": "encuestas-hover.jpg",
+      "type": "Jpg",
+      "initialSize": 59935,
+      "status": "NOT_OPTIMIZED"
+    },
+    "7c868d00": {
+      "id": "7c868d00",
+      "pid": "97a2cd60",
+      "path": "public\\assets\\img\\portafolio\\grid\\encuestas.jpg",
+      "size": 80718,
+      "name": "encuestas.jpg",
+      "type": "Jpg",
+      "initialSize": 80718,
+      "status": "NOT_OPTIMIZED"
+    },
+    "b30ed512": {
+      "id": "b30ed512",
+      "pid": "97a2cd60",
+      "path": "public\\assets\\img\\portafolio\\grid\\fortune-hover.jpg",
+      "size": 61696,
+      "name": "fortune-hover.jpg",
+      "type": "Jpg",
+      "initialSize": 61696,
+      "status": "NOT_OPTIMIZED"
+    },
+    "154a3ae4": {
+      "id": "154a3ae4",
+      "pid": "97a2cd60",
+      "path": "public\\assets\\img\\portafolio\\grid\\fortune.jpg",
+      "size": 87020,
+      "name": "fortune.jpg",
+      "type": "Jpg",
+      "initialSize": 87020,
+      "status": "NOT_OPTIMIZED"
+    },
+    "d37f0210": {
+      "id": "d37f0210",
+      "pid": "97a2cd60",
+      "path": "public\\assets\\img\\portafolio\\grid\\invaderFestival-hover.jpg",
+      "size": 85214,
+      "name": "invaderFestival-hover.jpg",
+      "type": "Jpg",
+      "initialSize": 85214,
+      "status": "NOT_OPTIMIZED"
+    },
+    "24d3acf4": {
+      "id": "24d3acf4",
+      "pid": "97a2cd60",
+      "path": "public\\assets\\img\\portafolio\\grid\\invaderFestival.jpg",
+      "size": 112768,
+      "name": "invaderFestival.jpg",
+      "type": "Jpg",
+      "initialSize": 112768,
+      "status": "NOT_OPTIMIZED"
+    },
+    "f8db3b5a": {
+      "id": "f8db3b5a",
+      "pid": "97a2cd60",
+      "path": "public\\assets\\img\\portafolio\\grid\\JD-hover.jpg",
+      "size": 55939,
+      "name": "JD-hover.jpg",
+      "type": "Jpg",
+      "initialSize": 55939,
+      "status": "NOT_OPTIMIZED"
+    },
+    "bcfa6fbd": {
+      "id": "bcfa6fbd",
+      "pid": "97a2cd60",
+      "path": "public\\assets\\img\\portafolio\\grid\\JD.jpg",
+      "size": 52406,
+      "name": "JD.jpg",
+      "type": "Jpg",
+      "initialSize": 52406,
+      "status": "NOT_OPTIMIZED"
+    },
+    "38512ad3": {
+      "id": "38512ad3",
+      "pid": "97a2cd60",
+      "path": "public\\assets\\img\\portafolio\\grid\\latitud-hover.jpg",
+      "size": 60606,
+      "name": "latitud-hover.jpg",
+      "type": "Jpg",
+      "initialSize": 60606,
+      "status": "NOT_OPTIMIZED"
+    },
+    "730122f4": {
+      "id": "730122f4",
+      "pid": "97a2cd60",
+      "path": "public\\assets\\img\\portafolio\\grid\\latitud.jpg",
+      "size": 57484,
+      "name": "latitud.jpg",
+      "type": "Jpg",
+      "initialSize": 57484,
+      "status": "NOT_OPTIMIZED"
+    },
+    "2bf1d043": {
+      "id": "2bf1d043",
+      "pid": "97a2cd60",
+      "path": "public\\assets\\img\\portafolio\\grid\\mabe-hover.jpg",
+      "size": 66346,
+      "name": "mabe-hover.jpg",
+      "type": "Jpg",
+      "initialSize": 66346,
+      "status": "NOT_OPTIMIZED"
+    },
+    "39b17cfa": {
+      "id": "39b17cfa",
+      "pid": "97a2cd60",
+      "path": "public\\assets\\img\\portafolio\\grid\\mabe.jpg",
+      "size": 87517,
+      "name": "mabe.jpg",
+      "type": "Jpg",
+      "initialSize": 87517,
+      "status": "NOT_OPTIMIZED"
+    },
+    "60bf1b7e": {
+      "id": "60bf1b7e",
+      "pid": "97a2cd60",
+      "path": "public\\assets\\img\\portafolio\\grid\\mostaccino-hover.jpg",
+      "size": 42885,
+      "name": "mostaccino-hover.jpg",
+      "type": "Jpg",
+      "initialSize": 42885,
+      "status": "NOT_OPTIMIZED"
+    },
+    "a9258a00": {
+      "id": "a9258a00",
+      "pid": "97a2cd60",
+      "path": "public\\assets\\img\\portafolio\\grid\\mostaccino.jpg",
+      "size": 40574,
+      "name": "mostaccino.jpg",
+      "type": "Jpg",
+      "initialSize": 40574,
+      "status": "NOT_OPTIMIZED"
+    },
+    "141043a4": {
+      "id": "141043a4",
+      "pid": "97a2cd60",
+      "path": "public\\assets\\img\\portafolio\\grid\\mundoIdeal-hover.jpg",
+      "size": 56955,
+      "name": "mundoIdeal-hover.jpg",
+      "type": "Jpg",
+      "initialSize": 56955,
+      "status": "NOT_OPTIMIZED"
+    },
+    "947bd19c": {
+      "id": "947bd19c",
+      "pid": "97a2cd60",
+      "path": "public\\assets\\img\\portafolio\\grid\\mundoIdeal.jpg",
+      "size": 64822,
+      "name": "mundoIdeal.jpg",
+      "type": "Jpg",
+      "initialSize": 64822,
+      "status": "NOT_OPTIMIZED"
+    },
+    "38ee1903": {
+      "id": "38ee1903",
+      "pid": "97a2cd60",
+      "path": "public\\assets\\img\\portafolio\\grid\\nosococo-hover.jpg",
+      "size": 77989,
+      "name": "nosococo-hover.jpg",
+      "type": "Jpg",
+      "initialSize": 77989,
+      "status": "NOT_OPTIMIZED"
+    },
+    "0fa9c370": {
+      "id": "0fa9c370",
+      "pid": "97a2cd60",
+      "path": "public\\assets\\img\\portafolio\\grid\\nosococo.jpg",
+      "size": 116608,
+      "name": "nosococo.jpg",
+      "type": "Jpg",
+      "initialSize": 116608,
+      "status": "NOT_OPTIMIZED"
+    },
+    "b8d78d83": {
+      "id": "b8d78d83",
+      "pid": "97a2cd60",
+      "path": "public\\assets\\img\\portafolio\\grid\\poloGti-hover.jpg",
+      "size": 59694,
+      "name": "poloGti-hover.jpg",
+      "type": "Jpg",
+      "initialSize": 59694,
+      "status": "NOT_OPTIMIZED"
+    },
+    "dccdf650": {
+      "id": "dccdf650",
+      "pid": "97a2cd60",
+      "path": "public\\assets\\img\\portafolio\\grid\\poloGti.jpg",
+      "size": 70581,
+      "name": "poloGti.jpg",
+      "type": "Jpg",
+      "initialSize": 70581,
+      "status": "NOT_OPTIMIZED"
+    },
+    "e9d6854b": {
+      "id": "e9d6854b",
+      "pid": "97a2cd60",
+      "path": "public\\assets\\img\\portafolio\\grid\\promociones-hover.jpg",
+      "size": 46049,
+      "name": "promociones-hover.jpg",
+      "type": "Jpg",
+      "initialSize": 46049,
+      "status": "NOT_OPTIMIZED"
+    },
+    "0fc2a53f": {
+      "id": "0fc2a53f",
+      "pid": "97a2cd60",
+      "path": "public\\assets\\img\\portafolio\\grid\\promociones.jpg",
+      "size": 53405,
+      "name": "promociones.jpg",
+      "type": "Jpg",
+      "initialSize": 53405,
+      "status": "NOT_OPTIMIZED"
+    },
+    "323bac1a": {
+      "id": "323bac1a",
+      "pid": "97a2cd60",
+      "path": "public\\assets\\img\\portafolio\\grid\\quetan-hover.jpg",
+      "size": 45811,
+      "name": "quetan-hover.jpg",
+      "type": "Jpg",
+      "initialSize": 45811,
+      "status": "NOT_OPTIMIZED"
+    },
+    "7b279300": {
+      "id": "7b279300",
+      "pid": "97a2cd60",
+      "path": "public\\assets\\img\\portafolio\\grid\\quetan.jpg",
+      "size": 56392,
+      "name": "quetan.jpg",
+      "type": "Jpg",
+      "initialSize": 56392,
+      "status": "NOT_OPTIMIZED"
+    },
+    "be55a5ef": {
+      "id": "be55a5ef",
+      "pid": "97a2cd60",
+      "path": "public\\assets\\img\\portafolio\\grid\\rally-hover.jpg",
+      "size": 58405,
+      "name": "rally-hover.jpg",
+      "type": "Jpg",
+      "initialSize": 58405,
+      "status": "NOT_OPTIMIZED"
+    },
+    "930db2be": {
+      "id": "930db2be",
+      "pid": "97a2cd60",
+      "path": "public\\assets\\img\\portafolio\\grid\\rally.jpg",
+      "size": 77264,
+      "name": "rally.jpg",
+      "type": "Jpg",
+      "initialSize": 77264,
+      "status": "NOT_OPTIMIZED"
+    },
+    "46466cec": {
+      "id": "46466cec",
+      "pid": "97a2cd60",
+      "path": "public\\assets\\img\\portafolio\\hola.jpg",
+      "size": 151703,
+      "name": "hola.jpg",
+      "type": "Jpg",
+      "initialSize": 151703,
+      "status": "NOT_OPTIMIZED"
+    },
+    "2576575f": {
+      "id": "2576575f",
+      "pid": "97a2cd60",
+      "path": "public\\assets\\img\\portafolio\\hola1.jpg",
+      "size": 154885,
+      "name": "hola1.jpg",
+      "type": "Jpg",
+      "initialSize": 154885,
+      "status": "NOT_OPTIMIZED"
+    },
+    "72ab5aba": {
+      "id": "72ab5aba",
+      "pid": "97a2cd60",
+      "path": "public\\assets\\img\\portafolio\\home\\arrowD.png",
+      "size": 2941,
+      "name": "arrowD.png",
+      "type": "Png",
+      "initialSize": 2941,
+      "status": "NOT_OPTIMIZED"
+    },
+    "be7638a8": {
+      "id": "be7638a8",
+      "pid": "97a2cd60",
+      "path": "public\\assets\\img\\portafolio\\home\\bg.jpg",
+      "size": 426098,
+      "name": "bg.jpg",
+      "type": "Jpg",
+      "initialSize": 426098,
+      "status": "NOT_OPTIMIZED"
+    },
+    "9b242f4d": {
+      "id": "9b242f4d",
+      "pid": "97a2cd60",
+      "path": "public\\assets\\img\\portafolio\\home\\grid.png",
+      "size": 2811,
+      "name": "grid.png",
+      "type": "Png",
+      "initialSize": 2811,
+      "status": "NOT_OPTIMIZED"
+    },
+    "d43fbd1a": {
+      "id": "d43fbd1a",
+      "pid": "97a2cd60",
+      "path": "public\\assets\\img\\portafolio\\IF.jpg",
+      "size": 123790,
+      "name": "IF.jpg",
+      "type": "Jpg",
+      "initialSize": 123790,
+      "status": "NOT_OPTIMIZED"
+    },
+    "c735a8f8": {
+      "id": "c735a8f8",
+      "pid": "97a2cd60",
+      "path": "public\\assets\\img\\portafolio\\if.png",
+      "size": 94713,
+      "name": "if.png",
+      "type": "Png",
+      "initialSize": 94713,
+      "status": "NOT_OPTIMIZED"
+    },
+    "839d78e4": {
+      "id": "839d78e4",
+      "pid": "97a2cd60",
+      "path": "public\\assets\\img\\portafolio\\img.png",
+      "size": 67958,
+      "name": "img.png",
+      "type": "Png",
+      "initialSize": 67958,
+      "status": "NOT_OPTIMIZED"
+    },
+    "4044015d": {
+      "id": "4044015d",
+      "pid": "97a2cd60",
+      "path": "public\\assets\\img\\portafolio\\img1.png",
+      "size": 341284,
+      "name": "img1.png",
+      "type": "Png",
+      "initialSize": 341284,
+      "status": "NOT_OPTIMIZED"
+    },
+    "8fcc9421": {
+      "id": "8fcc9421",
+      "pid": "97a2cd60",
+      "path": "public\\assets\\img\\portafolio\\invaderFestival\\center.png",
+      "size": 1954588,
+      "name": "center.png",
+      "type": "Png",
+      "initialSize": 1954588,
+      "status": "NOT_OPTIMIZED"
+    },
+    "1010b3a3": {
+      "id": "1010b3a3",
+      "pid": "97a2cd60",
+      "path": "public\\assets\\img\\portafolio\\invaderFestival\\left.png",
+      "size": 947091,
+      "name": "left.png",
+      "type": "Png",
+      "initialSize": 947091,
+      "status": "NOT_OPTIMIZED"
+    },
+    "b7e21902": {
+      "id": "b7e21902",
+      "pid": "97a2cd60",
+      "path": "public\\assets\\img\\portafolio\\invaderFestival\\right.png",
+      "size": 732629,
+      "name": "right.png",
+      "type": "Png",
+      "initialSize": 732629,
+      "status": "NOT_OPTIMIZED"
+    },
+    "8b064f60": {
+      "id": "8b064f60",
+      "pid": "97a2cd60",
+      "path": "public\\assets\\img\\portafolio\\jd\\center.png",
+      "size": 340946,
+      "name": "center.png",
+      "type": "Png",
+      "initialSize": 340946,
+      "status": "NOT_OPTIMIZED"
+    },
+    "323a8234": {
+      "id": "323a8234",
+      "pid": "97a2cd60",
+      "path": "public\\assets\\img\\portafolio\\jd\\left.png",
+      "size": 366959,
+      "name": "left.png",
+      "type": "Png",
+      "initialSize": 366959,
+      "status": "NOT_OPTIMIZED"
+    },
+    "c07f986c": {
+      "id": "c07f986c",
+      "pid": "97a2cd60",
+      "path": "public\\assets\\img\\portafolio\\jd\\right.png",
+      "size": 441168,
+      "name": "right.png",
+      "type": "Png",
+      "initialSize": 441168,
+      "status": "NOT_OPTIMIZED"
+    },
+    "ea166acd": {
+      "id": "ea166acd",
+      "pid": "97a2cd60",
+      "path": "public\\assets\\img\\portafolio\\mabe\\center.png",
+      "size": 1047609,
+      "name": "center.png",
+      "type": "Png",
+      "initialSize": 1047609,
+      "status": "NOT_OPTIMIZED"
+    },
+    "71687b92": {
+      "id": "71687b92",
+      "pid": "97a2cd60",
+      "path": "public\\assets\\img\\portafolio\\mabe\\left.png",
+      "size": 183054,
+      "name": "left.png",
+      "type": "Png",
+      "initialSize": 183054,
+      "status": "NOT_OPTIMIZED"
+    },
+    "f8b6329c": {
+      "id": "f8b6329c",
+      "pid": "97a2cd60",
+      "path": "public\\assets\\img\\portafolio\\mabe\\right.png",
+      "size": 295032,
+      "name": "right.png",
+      "type": "Png",
+      "initialSize": 295032,
+      "status": "NOT_OPTIMIZED"
+    },
+    "b1ef5f79": {
+      "id": "b1ef5f79",
+      "pid": "97a2cd60",
+      "path": "public\\assets\\img\\portafolio\\mostaccino\\center.png",
+      "size": 773380,
+      "name": "center.png",
+      "type": "Png",
+      "initialSize": 773380,
+      "status": "NOT_OPTIMIZED"
+    },
+    "bec4f16f": {
+      "id": "bec4f16f",
+      "pid": "97a2cd60",
+      "path": "public\\assets\\img\\portafolio\\mostaccino\\left.png",
+      "size": 810223,
+      "name": "left.png",
+      "type": "Png",
+      "initialSize": 810223,
+      "status": "NOT_OPTIMIZED"
+    },
+    "963df1bc": {
+      "id": "963df1bc",
+      "pid": "97a2cd60",
+      "path": "public\\assets\\img\\portafolio\\mostaccino\\right.png",
+      "size": 856263,
+      "name": "right.png",
+      "type": "Png",
+      "initialSize": 856263,
+      "status": "NOT_OPTIMIZED"
+    },
+    "2e2da802": {
+      "id": "2e2da802",
+      "pid": "97a2cd60",
+      "path": "public\\assets\\img\\portafolio\\mundoIdeal\\center.png",
+      "size": 402927,
+      "name": "center.png",
+      "type": "Png",
+      "initialSize": 402927,
+      "status": "NOT_OPTIMIZED"
+    },
+    "32f68544": {
+      "id": "32f68544",
+      "pid": "97a2cd60",
+      "path": "public\\assets\\img\\portafolio\\mundoIdeal\\left.png",
+      "size": 263612,
+      "name": "left.png",
+      "type": "Png",
+      "initialSize": 263612,
+      "status": "NOT_OPTIMIZED"
+    },
+    "bd34664c": {
+      "id": "bd34664c",
+      "pid": "97a2cd60",
+      "path": "public\\assets\\img\\portafolio\\mundoIdeal\\right.png",
+      "size": 414903,
+      "name": "right.png",
+      "type": "Png",
+      "initialSize": 414903,
+      "status": "NOT_OPTIMIZED"
+    },
+    "f9d2f6b8": {
+      "id": "f9d2f6b8",
+      "pid": "97a2cd60",
+      "path": "public\\assets\\img\\portafolio\\mundoIdeal.jpg",
+      "size": 73100,
+      "name": "mundoIdeal.jpg",
+      "type": "Jpg",
+      "initialSize": 73100,
+      "status": "NOT_OPTIMIZED"
+    },
+    "a2b62dba": {
+      "id": "a2b62dba",
+      "pid": "97a2cd60",
+      "path": "public\\assets\\img\\portafolio\\mundoIdeal.png",
+      "size": 92739,
+      "name": "mundoIdeal.png",
+      "type": "Png",
+      "initialSize": 92739,
+      "status": "NOT_OPTIMIZED"
+    },
+    "825045e3": {
+      "id": "825045e3",
+      "pid": "97a2cd60",
+      "path": "public\\assets\\img\\portafolio\\New folder\\encuestas-h-over.jpg",
+      "size": 58884,
+      "name": "encuestas-h-over.jpg",
+      "type": "Jpg",
+      "initialSize": 58884,
+      "status": "NOT_OPTIMIZED"
+    },
+    "a9f4ee1b": {
+      "id": "a9f4ee1b",
+      "pid": "97a2cd60",
+      "path": "public\\assets\\img\\portafolio\\New folder\\encuestas-hover.jpg",
+      "size": 59935,
+      "name": "encuestas-hover.jpg",
+      "type": "Jpg",
+      "initialSize": 59935,
+      "status": "NOT_OPTIMIZED"
+    },
+    "668b446f": {
+      "id": "668b446f",
+      "pid": "97a2cd60",
+      "path": "public\\assets\\img\\portafolio\\New folder\\fortune-hover.jpg",
+      "size": 61696,
+      "name": "fortune-hover.jpg",
+      "type": "Jpg",
+      "initialSize": 61696,
+      "status": "NOT_OPTIMIZED"
+    },
+    "26ab8acf": {
+      "id": "26ab8acf",
+      "pid": "97a2cd60",
+      "path": "public\\assets\\img\\portafolio\\New folder\\invaderFestival-hover.jpg",
+      "size": 85214,
+      "name": "invaderFestival-hover.jpg",
+      "type": "Jpg",
+      "initialSize": 85214,
+      "status": "NOT_OPTIMIZED"
+    },
+    "a520d256": {
+      "id": "a520d256",
+      "pid": "97a2cd60",
+      "path": "public\\assets\\img\\portafolio\\New folder\\invaderFestival.jpg",
+      "size": 112768,
+      "name": "invaderFestival.jpg",
+      "type": "Jpg",
+      "initialSize": 112768,
+      "status": "NOT_OPTIMIZED"
+    },
+    "f2341c08": {
+      "id": "f2341c08",
+      "pid": "97a2cd60",
+      "path": "public\\assets\\img\\portafolio\\New folder\\JD-hover.jpg",
+      "size": 55939,
+      "name": "JD-hover.jpg",
+      "type": "Jpg",
+      "initialSize": 55939,
+      "status": "NOT_OPTIMIZED"
+    },
+    "5ed693a3": {
+      "id": "5ed693a3",
+      "pid": "97a2cd60",
+      "path": "public\\assets\\img\\portafolio\\New folder\\JD.jpg",
+      "size": 52406,
+      "name": "JD.jpg",
+      "type": "Jpg",
+      "initialSize": 52406,
+      "status": "NOT_OPTIMIZED"
+    },
+    "05cf159b": {
+      "id": "05cf159b",
+      "pid": "97a2cd60",
+      "path": "public\\assets\\img\\portafolio\\New folder\\latitud-hover.jpg",
+      "size": 60606,
+      "name": "latitud-hover.jpg",
+      "type": "Jpg",
+      "initialSize": 60606,
+      "status": "NOT_OPTIMIZED"
+    },
+    "8978081f": {
+      "id": "8978081f",
+      "pid": "97a2cd60",
+      "path": "public\\assets\\img\\portafolio\\New folder\\mostaccino-hover.jpg",
+      "size": 42885,
+      "name": "mostaccino-hover.jpg",
+      "type": "Jpg",
+      "initialSize": 42885,
+      "status": "NOT_OPTIMIZED"
+    },
+    "3210eb89": {
+      "id": "3210eb89",
+      "pid": "97a2cd60",
+      "path": "public\\assets\\img\\portafolio\\New folder\\mostaccino.jpg",
+      "size": 40574,
+      "name": "mostaccino.jpg",
+      "type": "Jpg",
+      "initialSize": 40574,
+      "status": "NOT_OPTIMIZED"
+    },
+    "72f77640": {
+      "id": "72f77640",
+      "pid": "97a2cd60",
+      "path": "public\\assets\\img\\portafolio\\New folder\\mundoIdeal-hover.jpg",
+      "size": 56955,
+      "name": "mundoIdeal-hover.jpg",
+      "type": "Jpg",
+      "initialSize": 56955,
+      "status": "NOT_OPTIMIZED"
+    },
+    "b950da84": {
+      "id": "b950da84",
+      "pid": "97a2cd60",
+      "path": "public\\assets\\img\\portafolio\\New folder\\mundoIdeal.jpg",
+      "size": 64822,
+      "name": "mundoIdeal.jpg",
+      "type": "Jpg",
+      "initialSize": 64822,
+      "status": "NOT_OPTIMIZED"
+    },
+    "d0d266b2": {
+      "id": "d0d266b2",
+      "pid": "97a2cd60",
+      "path": "public\\assets\\img\\portafolio\\New folder\\nosococo-hover.jpg",
+      "size": 77989,
+      "name": "nosococo-hover.jpg",
+      "type": "Jpg",
+      "initialSize": 77989,
+      "status": "NOT_OPTIMIZED"
+    },
+    "039902f9": {
+      "id": "039902f9",
+      "pid": "97a2cd60",
+      "path": "public\\assets\\img\\portafolio\\New folder\\nosococo.jpg",
+      "size": 116608,
+      "name": "nosococo.jpg",
+      "type": "Jpg",
+      "initialSize": 116608,
+      "status": "NOT_OPTIMIZED"
+    },
+    "064f2aa7": {
+      "id": "064f2aa7",
+      "pid": "97a2cd60",
+      "path": "public\\assets\\img\\portafolio\\New folder\\poloGti-hover.jpg",
+      "size": 59694,
+      "name": "poloGti-hover.jpg",
+      "type": "Jpg",
+      "initialSize": 59694,
+      "status": "NOT_OPTIMIZED"
+    },
+    "62e42e42": {
+      "id": "62e42e42",
+      "pid": "97a2cd60",
+      "path": "public\\assets\\img\\portafolio\\New folder\\poloGti.jpg",
+      "size": 70581,
+      "name": "poloGti.jpg",
+      "type": "Jpg",
+      "initialSize": 70581,
+      "status": "NOT_OPTIMIZED"
+    },
+    "e7504353": {
+      "id": "e7504353",
+      "pid": "97a2cd60",
+      "path": "public\\assets\\img\\portafolio\\New folder\\promociones-hover.jpg",
+      "size": 46049,
+      "name": "promociones-hover.jpg",
+      "type": "Jpg",
+      "initialSize": 46049,
+      "status": "NOT_OPTIMIZED"
+    },
+    "ea1c8777": {
+      "id": "ea1c8777",
+      "pid": "97a2cd60",
+      "path": "public\\assets\\img\\portafolio\\New folder\\promociones.jpg",
+      "size": 53405,
+      "name": "promociones.jpg",
+      "type": "Jpg",
+      "initialSize": 53405,
+      "status": "NOT_OPTIMIZED"
+    },
+    "83a3a737": {
+      "id": "83a3a737",
+      "pid": "97a2cd60",
+      "path": "public\\assets\\img\\portafolio\\New folder\\quetan-hover.jpg",
+      "size": 45811,
+      "name": "quetan-hover.jpg",
+      "type": "Jpg",
+      "initialSize": 45811,
+      "status": "NOT_OPTIMIZED"
+    },
+    "58dd11c4": {
+      "id": "58dd11c4",
+      "pid": "97a2cd60",
+      "path": "public\\assets\\img\\portafolio\\New folder\\quetan.jpg",
+      "size": 56392,
+      "name": "quetan.jpg",
+      "type": "Jpg",
+      "initialSize": 56392,
+      "status": "NOT_OPTIMIZED"
+    },
+    "4c8a4035": {
+      "id": "4c8a4035",
+      "pid": "97a2cd60",
+      "path": "public\\assets\\img\\portafolio\\New folder\\rally-hover.jpg",
+      "size": 58405,
+      "name": "rally-hover.jpg",
+      "type": "Jpg",
+      "initialSize": 58405,
+      "status": "NOT_OPTIMIZED"
+    },
+    "f6a75bcb": {
+      "id": "f6a75bcb",
+      "pid": "97a2cd60",
+      "path": "public\\assets\\img\\portafolio\\New folder\\rally.jpg",
+      "size": 77264,
+      "name": "rally.jpg",
+      "type": "Jpg",
+      "initialSize": 77264,
+      "status": "NOT_OPTIMIZED"
+    },
+    "73c958ce": {
+      "id": "73c958ce",
+      "pid": "97a2cd60",
+      "path": "public\\assets\\img\\portafolio\\nosococo\\center.png",
+      "size": 1279489,
+      "name": "center.png",
+      "type": "Png",
+      "initialSize": 1279489,
+      "status": "NOT_OPTIMIZED"
+    },
+    "11429f72": {
+      "id": "11429f72",
+      "pid": "97a2cd60",
+      "path": "public\\assets\\img\\portafolio\\nosococo\\left.png",
+      "size": 1396494,
+      "name": "left.png",
+      "type": "Png",
+      "initialSize": 1396494,
+      "status": "NOT_OPTIMIZED"
+    },
+    "15234d45": {
+      "id": "15234d45",
+      "pid": "97a2cd60",
+      "path": "public\\assets\\img\\portafolio\\nosococo\\right.png",
+      "size": 1464735,
+      "name": "right.png",
+      "type": "Png",
+      "initialSize": 1464735,
+      "status": "NOT_OPTIMIZED"
+    },
+    "628cba7d": {
+      "id": "628cba7d",
+      "pid": "97a2cd60",
+      "path": "public\\assets\\img\\portafolio\\nosococo.png",
+      "size": 134446,
+      "name": "nosococo.png",
+      "type": "Png",
+      "initialSize": 134446,
+      "status": "NOT_OPTIMIZED"
+    },
+    "ec70adae": {
+      "id": "ec70adae",
+      "pid": "97a2cd60",
+      "path": "public\\assets\\img\\portafolio\\poloGti\\center.png",
+      "size": 400973,
+      "name": "center.png",
+      "type": "Png",
+      "initialSize": 400973,
+      "status": "NOT_OPTIMIZED"
+    },
+    "83d96a42": {
+      "id": "83d96a42",
+      "pid": "97a2cd60",
+      "path": "public\\assets\\img\\portafolio\\poloGti\\left.png",
+      "size": 494736,
+      "name": "left.png",
+      "type": "Png",
+      "initialSize": 494736,
+      "status": "NOT_OPTIMIZED"
+    },
+    "bcf0be5f": {
+      "id": "bcf0be5f",
+      "pid": "97a2cd60",
+      "path": "public\\assets\\img\\portafolio\\poloGti\\right.png",
+      "size": 478021,
+      "name": "right.png",
+      "type": "Png",
+      "initialSize": 478021,
+      "status": "NOT_OPTIMIZED"
+    },
+    "0999ddea": {
+      "id": "0999ddea",
+      "pid": "97a2cd60",
+      "path": "public\\assets\\img\\portafolio\\pologti.jpg",
+      "size": 82099,
+      "name": "pologti.jpg",
+      "type": "Jpg",
+      "initialSize": 82099,
+      "status": "NOT_OPTIMIZED"
+    },
+    "5d994927": {
+      "id": "5d994927",
+      "pid": "97a2cd60",
+      "path": "public\\assets\\img\\portafolio\\promociones\\center.png",
+      "size": 119928,
+      "name": "center.png",
+      "type": "Png",
+      "initialSize": 119928,
+      "status": "NOT_OPTIMIZED"
+    },
+    "3b30fbf2": {
+      "id": "3b30fbf2",
+      "pid": "97a2cd60",
+      "path": "public\\assets\\img\\portafolio\\promociones\\left.png",
+      "size": 198018,
+      "name": "left.png",
+      "type": "Png",
+      "initialSize": 198018,
+      "status": "NOT_OPTIMIZED"
+    },
+    "ae1b9aa5": {
+      "id": "ae1b9aa5",
+      "pid": "97a2cd60",
+      "path": "public\\assets\\img\\portafolio\\promociones\\right.png",
+      "size": 145783,
+      "name": "right.png",
+      "type": "Png",
+      "initialSize": 145783,
+      "status": "NOT_OPTIMIZED"
+    },
+    "e1f859f4": {
+      "id": "e1f859f4",
+      "pid": "97a2cd60",
+      "path": "public\\assets\\img\\portafolio\\quetanveloz.jpg",
+      "size": 56153,
+      "name": "quetanveloz.jpg",
+      "type": "Jpg",
+      "initialSize": 56153,
+      "status": "NOT_OPTIMIZED"
+    },
+    "81f6825a": {
+      "id": "81f6825a",
+      "pid": "97a2cd60",
+      "path": "public\\assets\\img\\portafolio\\rally\\left.png",
+      "size": 1175305,
+      "name": "left.png",
+      "type": "Png",
+      "initialSize": 1175305,
+      "status": "NOT_OPTIMIZED"
+    },
+    "cf535adc": {
+      "id": "cf535adc",
+      "pid": "97a2cd60",
+      "path": "public\\assets\\img\\portafolio\\rally\\right.png",
+      "size": 1182327,
+      "name": "right.png",
+      "type": "Png",
+      "initialSize": 1182327,
+      "status": "NOT_OPTIMIZED"
+    },
+    "8ae039fd": {
+      "id": "8ae039fd",
+      "pid": "97a2cd60",
+      "path": "public\\assets\\img\\portafolio\\rally.jpg",
+      "size": 70965,
+      "name": "rally.jpg",
+      "type": "Jpg",
+      "initialSize": 70965,
+      "status": "NOT_OPTIMIZED"
+    },
+    "5e30d966": {
+      "id": "5e30d966",
+      "pid": "97a2cd60",
+      "path": "public\\assets\\img\\portafolio\\rally.png",
+      "size": 4667599,
+      "name": "rally.png",
+      "type": "Png",
+      "initialSize": 4667599,
+      "status": "NOT_OPTIMIZED"
+    },
+    "09b76981": {
+      "id": "09b76981",
+      "pid": "97a2cd60",
+      "path": "public\\assets\\img\\portafolio\\up.png",
+      "size": 2992,
+      "name": "up.png",
+      "type": "Png",
+      "initialSize": 2992,
+      "status": "NOT_OPTIMIZED"
+    },
+    "7948de50": {
+      "id": "7948de50",
+      "pid": "97a2cd60",
+      "path": "public\\assets\\img\\portafolio\\vwrally.png",
+      "size": 101230,
+      "name": "vwrally.png",
+      "type": "Png",
+      "initialSize": 101230,
+      "status": "NOT_OPTIMIZED"
+    },
+    "47c0e24c": {
+      "id": "47c0e24c",
+      "pid": "97a2cd60",
+      "path": "public\\assets\\img\\share\\share-1250x600.jpg",
+      "size": 119812,
+      "name": "share-1250x600.jpg",
+      "type": "Jpg",
+      "initialSize": 119812,
+      "status": "NOT_OPTIMIZED"
+    },
+    "dbb7fdde": {
+      "id": "dbb7fdde",
+      "pid": "97a2cd60",
+      "path": "public\\assets\\img\\share\\share-250x250.jpg",
+      "size": 32612,
+      "name": "share-250x250.jpg",
+      "type": "Jpg",
+      "initialSize": 32612,
+      "status": "NOT_OPTIMIZED"
+    },
+    "303c5c8a": {
+      "id": "303c5c8a",
+      "pid": "97a2cd60",
+      "path": "public\\assets\\img\\share\\share-500x500.jpg",
+      "size": 61593,
+      "name": "share-500x500.jpg",
+      "type": "Jpg",
+      "initialSize": 61593,
+      "status": "NOT_OPTIMIZED"
+    },
+    "cac025c9": {
+      "id": "cac025c9",
+      "pid": "97a2cd60",
+      "path": "public\\assets\\pixel.png",
+      "size": 2801,
+      "name": "pixel.png",
+      "type": "Png",
+      "initialSize": 2801,
+      "status": "NOT_OPTIMIZED"
+    }
+  },
+  "config": {
+    "watch": true,
+    "liveRefresh": true,
+    "liveRefreshDelay": 0,
+    "filterPatterns": "",
+    "useCustomServer": false,
+    "customServerUrl": "",
+    "cssPath": "../../public/css/",
+    "jsPath": "../public/js/",
+    "htmlPath": "../public",
+    "minJsPath": "../public/js/min/",
+    "htmlExtension": ".html",
+    "cssPathType": "RELATIVE_FILEDIR",
+    "htmlPathType": "RELATIVE_FILEDIR",
+    "jsPathType": "REPLACE_TYPE",
+    "minJsPathType": "RELATIVE_FILEDIR",
+    "htmlTypes": "jade, haml, slim, markdown, md",
+    "cssTypes": "less, sass, stylus, scss, styl",
+    "jsTypes": "coffee, coffeescript, coffeescripts, ls, livescript, livescripts,js",
+    "cssPreprocessorPath": "",
+    "htmlPreprocessorPath": "",
+    "jsPreprocessorPath": "",
+    "minJsPreprocessorPath": "",
+    "autoprefixerBrowsers": "",
+    "ftpHost": "",
+    "ftpPort": "21",
+    "ftpRemotePath": "",
+    "ftpIgnorePreprocessorFiles": true,
+    "ftpType": "FTP",
+    "ftpExcludePatterns": "",
+    "ftpPassword": "",
+    "ftpUsername": ""
+  }
+}

@@ -1,0 +1,122 @@
+$azul-claro: #3FCFFF
+$azul-casiC: #39BAE5
+$azul-medio: #2F9BBF
+$azul-casiO: #20677F
+$azul-obscuro: #103440
+
+$gris-claro: #000
+$gris-obscuro: #979797
+
+@mixin is-center()
+	margin: auto
+	position: absolute
+	top: 0 
+	left: 0 
+	bottom: 0 
+	right: 0
+@mixin freeTransform($params)
+	transform: $params
+	-ms-transform: $params
+	-webkit-transform: $params
+	-moz-transform: $params
+	-o-transform: $params
+@mixin background-size($params)
+	-webkit-background-size: $params
+	-moz-background-size: $params
+	-o-background-size: $params
+	background-size: $params
+@mixin rotate($params)
+	transform: rotate($params)
+	-ms-transform: rotate($params)
+	-webkit-transform: rotate($params)
+	-moz-transform: rotate($params)
+	-o-transform: rotate($params)
+@mixin transform($a, $b, $c, $d, $e, $f)
+	transform: matrix($a, $b, $c, $d, $e, $f)
+	-ms-transform: matrix($a, $b, $c, $d, $e, $f)
+	-webkit-transform: matrix($a, $b, $c, $d, $e, $f)
+	-moz-transform: matrix($a, $b, $c, $d, $e, $f)
+	-o-transform: matrix($a, $b, $c, $d, $e, $f)
+@mixin scale($param1, $param2)
+	transform: scale($param1, $param2)
+	-ms-transform: scale($param1, $param2)
+	-webkit-transform: scale($param1, $param2)
+	-moz-transform: scale($param1, $param2)
+	-o-transform: scale($param1, $param2)
+@mixin translate3d($a,$b,$c)
+	transform: translate3d(0,0,0)
+	-ms-transform: translate3d(0,0,0)
+	-webkit-transform: translate3d(0,0,0)
+	-moz-transform: translate3d(0,0,0)
+	-o-transform: translate3d(0,0,0)
+@mixin animation-name($params)
+	-moz-animation-name: $params
+	-webkit-animation-name: $params
+	-ms-animation-name: $params
+	-o-animation-name: $params
+
+@mixin animation-duration($params)
+	-moz-animation-duration: $params
+	-webkit-animation-duration: $params
+	-ms-animation-duration: $params
+	-o-animation-duration: $params
+	animation-duration: $params
+
+@mixin animation-iteration-count($params)
+	-moz-animation-iteration-count: $params
+	-webkit-animation-iteration-count: $params
+	-ms-animation-iteration-count: $params
+	-o-animation-iteration-count: $params
+	animation-iteration-count: $params
+
+@mixin animation-direction($params)
+	-moz-animation-direction: $params
+	-webkit-animation-direction: $params
+	-ms-animation-direction: $params
+	-o-animation-direction: $params
+	animation-direction: $params
+
+@mixin animation($params)
+	-moz-animation: $params
+	-webkit-animation: $params
+	-ms-animation: $params
+	-o-animation: $params
+	animation: $params
+
+@mixin border-radius($params)
+	-webkit-border-radius: $params
+	-moz-border-radius: $params
+	border-radius: $params
+
+@mixin box-shadow($params)
+	-webkit-box-shadow: $params
+	-moz-box-shadow: $params
+	box-shadow: $params
+
+@mixin text-shadow($x: 2px, $y: 2px, $blur: 5px, $color: rgba(0,0,0,.4))
+	text-shadow: $x $y $blur $color
+	
+@mixin diagonal($deg, $bg)
+	height: 100%
+	transform: skewX($deg)
+	-webkit-transform: skewX($deg)
+	-ms-transform: skewX($deg)
+	position: absolute
+	float: left
+	overflow: hidden
+	background-color: $bg
+
+@mixin transition($params)
+	-webkit-transition: $params
+	-moz-transition: $params
+	-ms-transition: $params
+	-o-transition: $params
+	transition: $params
+
+@mixin perspective($deg, $deg2)
+	-webkit-perspective: $deg, $deg2
+	-moz-perspective: $deg, $deg2
+	-o-perspective: $deg, $deg2
+	-ms-perspective: $deg, $deg2
+	
+	
